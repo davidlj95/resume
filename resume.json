@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "David Lozano Jarque",
-        "label": "Computer Science Engineer. Passionate about Systems Administration, Full-stack software developer and Cryptography and secure systems",
+        "label": "Computer Science Engineer. Passionate Systems Administrator, Full-stack software developer and Cryptography and secure systems fan",
         "image": "https://www.davidlj95.com/assets/img/profile.png",
         "email": "mail@davidlj95.com",
         "phone": "+34 644 449 360",
@@ -127,7 +127,7 @@
         "endDate": "2013-06-01",
         "gpa": "Global average GPA: 3.96 (9.76/10 in Europe)",
         "courses": [
-            "Catalan", "Spanish", "English", "Industrial technology", "Maths", "Physics", "Technical Design (and CAID)", "Enterpreneurship", "Internship (at the same high school as computer technician)"
+            "Catalan", "Spanish", "English", "Industrial technology", "Maths", "Physics", "Technical Design (and CAID)", "Enterpreneurship", "Internship (as computer technician)"
         ]
 
     }],
@@ -156,12 +156,12 @@
             "level": "Master",
             "keywords": [
                 "TCP/IP protocols family",
-                "IEEE 802.11/802.3/802.15 (WiFi, Ethernet and Bluetooth)", "STP",
+                "IEEE 802.3/11/15 (WiFi, Ethernet, Bluetooth)", "STP",
                 "Static and dynamic routing",
                 "DTNs",
                 "Autonomous Systems",
                 "Domain Name System",
-                "Tunneling & Virtual Private Networks & OpenVPN",
+                "Tunneling & VPNs & OpenVPN",
                 "IPsec",
                 "Traffic filtering with iptables-like tools"
             ]
@@ -171,9 +171,9 @@
             "level": "Master",
             "keywords": [
                 "Symmetric cryptography (AES, DSA)",
-                "Asymmetric public-key cryptography (RSA, ECDSA, ElGamal)",
+                "Public-key cryptography (RSA, ECDSA, ElGamal)",
                 "Shared-secret-schemes",
-                "Public Key Infrastructure (PKI and Digital Certificates)",
+                "Public Key Infrastructure (PKI)",
                 "Blockchain technology",
                 "Bitcoin cryptocurrency"
             ]
