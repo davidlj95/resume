@@ -6,7 +6,7 @@
 # Constants
 RESUME_FILE="resume.json"
 EXPORTS_FOLDER="./docs"
-EXPORTS=("english.pdf" "index.html")
+EXPORTS=("davidlj95_Resume.pdf" "index.html")
 THEME="elegant"
 
 # Create exports folder

@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
@@ -1200,11 +1200,52 @@
             .pagebreak {
                 page-break-before: always;
             }
+            div.export {
+                display: none;
+            }
+        }
+
+        div.export {
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 100;
+            background-color: rgba(127, 127, 127, 0.85);
+            padding: 1.5em;
+            border-radius: 1.5em;
+            margin: 2em 2em 0 0;
+        }
+
+        div.export img {
+            height: 4em;
+        }
+
+        a.export {
+            color: white;
+            font-weight: bold;
+            font-size: 1em;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width:625px) {
+            div.export {
+                margin: 1em 1em;
+                padding: 0.75em;
+            }
+            div.export span {
+                display: none;
+            }
         }
     </style>
 </head>
 
 <body itemscope="itemscope" itemtype="http://schema.org/Person">
+    <a class="export" href="davidlj95_Resume.pdf" download>
+        <div class="export">
+            <img src="https://i.imgur.com/ava66Iu.png" />
+            <span>Download as PDF</span>
+        </div>
+    </a>
     <div class="container-fluid">
         <div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a>
             <nav class="floating-nav js-floating-nav">
@@ -1221,8 +1262,40 @@
                     <hr/>
                     <div class="contact-details clearfix">
                         <div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Mollet del Vallès, Barcelona, ES</span></div>
-                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">+34 644 449 360</span></div>
-                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:mail@davidlj95.com" itemprop="email">mail@davidlj95.com</a></span></div>
+                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone"><script type="text/javascript">
+                        { coded = "siiiicbsT"
+                          key = "tVMqGZFg9a3YAuEWdczb10Dvy2jLJrTXnw8oxRS56BeIH4Q7ksKNfpiOmlUCPh"
+                          shift=coded.length
+                          link=""
+                          for (i=0; i<coded.length; i++) {
+                            if (key.indexOf(coded.charAt(i))==-1) {
+                              ltr = coded.charAt(i)
+                              link += (ltr)
+                            }
+                            else {
+                              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                              link += (key.charAt(ltr))
+                            }
+                          }
+                        document.write("<a href='tel:+34"+link+"'>+34 "+link.match(/.{1,3}/g).join(" ")+"</a>")
+                    }</script><noscript>Sorry, you need Javascript on to phone me.</noscript></span></div>
+                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><script type="text/javascript">
+                        { coded = "geGC@ReVGRCvQh.4jg"
+                          key = "aCPvR8yWX9rzqtwb5mei3VL0fKAQBoH7YZhgkGcEJsNFnlOjdI6TDUxu4p2S1M"
+                          shift=coded.length
+                          link=""
+                          for (i=0; i<coded.length; i++) {
+                            if (key.indexOf(coded.charAt(i))==-1) {
+                              ltr = coded.charAt(i)
+                              link += (ltr)
+                            }
+                            else {
+                              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                              link += (key.charAt(ltr))
+                            }
+                          }
+                        document.write("<a href=\"mailto:"+link+"?subject=I've%20checked%20your%20resume\">"+link+"</a>")
+                    }</script><noscript>Sorry, you need Javascript on to email me.</noscript></span></div>
                         <div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://www.davidlj95.com" target="_blank">https://www.davidlj95.com</a></span></div>
                         <div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">Spanish, Catalan, English (fluid)</span></div>
                     </div>
@@ -1333,23 +1406,22 @@
                                     <li class="card card-nested clearfix">
                                         <div class="content">
                                             <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Software Developer and IT consultant (as freelance)</strong>,&nbsp;<a href="http://ibc.bio" target="_blank">IBC Biomechanics</a></p>
-                                            <p
-                                                class="text-muted"><small><span class="space-right">Sep, 2014 - Present</span></small></p>
-                                                <div class="mop-wrapper space-bottom">
-                                                    <p>Design and development of a customized clinical reports generator software application based on Microsoft Word user-designed templates and using data exported from a collection of third-party applications
-                                                        that capture and analyze data from a patient using optical-tracking camera devices, EMG devices, foot insoles, dynamometers and inertial sensors</p>
-                                                </div>
-                                                <ul>
-                                                    <li class="mop-wrapper">
-                                                        <p>Python 2.7 / 3.6 (using Anaconda framework and python-docx library)</p>
-                                                    </li>
-                                                    <li class="mop-wrapper">
-                                                        <p>JavaSE 8 (using PyBluez to handle Bluetooth connections)</p>
-                                                    </li>
-                                                    <li class="mop-wrapper">
-                                                        <p>GUI(s) using PyQt4/5</p>
-                                                    </li>
-                                                </ul>
+                                            <p class="text-muted"><small><span class="space-right">Sep, 2014 - Present</span></small></p>
+                                            <div class="mop-wrapper space-bottom">
+                                                <p>Design and development of a customized clinical reports generator software application based on Microsoft Word user-designed templates and using data exported from a collection of third-party applications
+                                                    that capture and analyze data from a patient using optical-tracking camera devices, EMG devices, foot insoles, dynamometers and inertial sensors</p>
+                                            </div>
+                                            <ul>
+                                                <li class="mop-wrapper">
+                                                    <p>Python 2.7 / 3.6 (using Anaconda framework and python-docx library)</p>
+                                                </li>
+                                                <li class="mop-wrapper">
+                                                    <p>JavaSE 8 (using PyBluez to handle Bluetooth connections)</p>
+                                                </li>
+                                                <li class="mop-wrapper">
+                                                    <p>GUI(s) using PyQt4/5</p>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </li>
                                 </ul>
@@ -1367,8 +1439,7 @@
                                             </div>
                                             <div class="skill-info"><strong>Web Development</strong>
                                                 <div class="space-top labels"><span class="label label-keyword">HTML5</span><span class="label label-keyword">CSS3</span><span class="label label-keyword">Javascript</span><span class="label label-keyword">AJAX</span><span class="label label-keyword">PHP</span>
-                                                    <span
-                                                        class="label label-keyword">Responsive design</span><span class="label label-keyword">Bootstrap</span><span class="label label-keyword">Jekyll</span></div>
+                                                    <span class="label label-keyword">Responsive design</span><span class="label label-keyword">Bootstrap</span><span class="label label-keyword">Jekyll</span></div>
                                             </div>
                                         </li>
                                         <li class="card card-nested card-skills">
@@ -1377,10 +1448,8 @@
                                             </div>
                                             <div class="skill-info"><strong>Networks and System Administration</strong>
                                                 <div class="space-top labels"><span class="label label-keyword">TCP/IP protocols family</span><span class="label label-keyword">IEEE 802.3/11/15 (WiFi, Ethernet, Bluetooth)</span><span class="label label-keyword">STP</span>
-                                                    <span
-                                                        class="label label-keyword">Static and dynamic routing</span><span class="label label-keyword">DTNs</span><span class="label label-keyword">Autonomous Systems</span><span class="label label-keyword">Domain Name System</span>
-                                                        <span
-                                                            class="label label-keyword">Tunneling &amp; VPNs &amp; OpenVPN</span><span class="label label-keyword">IPsec</span><span class="label label-keyword">Traffic filtering with iptables-like tools</span></div>
+                                                    <span class="label label-keyword">Static and dynamic routing</span><span class="label label-keyword">DTNs</span><span class="label label-keyword">Autonomous Systems</span><span class="label label-keyword">Domain Name System</span>
+                                                    <span class="label label-keyword">Tunneling &amp; VPNs &amp; OpenVPN</span><span class="label label-keyword">IPsec</span><span class="label label-keyword">Traffic filtering with iptables-like tools</span></div>
                                             </div>
                                         </li>
                                         <li class="card card-nested card-skills">
@@ -1389,8 +1458,7 @@
                                             </div>
                                             <div class="skill-info"><strong>Cybersecurity and cryptography</strong>
                                                 <div class="space-top labels"><span class="label label-keyword">Symmetric cryptography (AES, DSA)</span><span class="label label-keyword">Public-key cryptography (RSA, ECDSA, ElGamal)</span><span class="label label-keyword">Shared-secret-schemes</span>
-                                                    <span
-                                                        class="label label-keyword">Public Key Infrastructure (PKI)</span><span class="label label-keyword">Blockchain technology</span><span class="label label-keyword">Bitcoin cryptocurrency</span></div>
+                                                    <span class="label label-keyword">Public Key Infrastructure (PKI)</span><span class="label label-keyword">Blockchain technology</span><span class="label label-keyword">Bitcoin cryptocurrency</span></div>
                                             </div>
                                         </li>
                                         <li class="card card-nested card-skills">
@@ -1399,12 +1467,9 @@
                                             </div>
                                             <div class="skill-info"><strong>Programming (and markup) languages and frameworks</strong>
                                                 <div class="space-top labels"><span class="label label-keyword">Android</span><span class="label label-keyword">Assembly (Intel x86_64)</span><span class="label label-keyword">Bash / Shell</span><span class="label label-keyword">Batch/DOS</span>
-                                                    <span
-                                                        class="label label-keyword">C</span><span class="label label-keyword">C++</span><span class="label label-keyword">CSS3</span><span class="label label-keyword">HTML5</span><span class="label label-keyword">JavaEE (J2EE)</span>
-                                                        <span
-                                                            class="label label-keyword">JavaSE</span><span class="label label-keyword">JavaScript</span><span class="label label-keyword">JSON</span><span class="label label-keyword">LaTeX</span><span class="label label-keyword">NodeJS</span>
-                                                            <span
-                                                                class="label label-keyword">PHP</span><span class="label label-keyword">Python</span><span class="label label-keyword">Qt</span><span class="label label-keyword">SQL</span><span class="label label-keyword">XML</span></div>
+                                                    <span class="label label-keyword">C</span><span class="label label-keyword">C++</span><span class="label label-keyword">CSS3</span><span class="label label-keyword">HTML5</span><span class="label label-keyword">JavaEE (J2EE)</span>
+                                                    <span class="label label-keyword">JavaSE</span><span class="label label-keyword">JavaScript</span><span class="label label-keyword">JSON</span><span class="label label-keyword">LaTeX</span><span class="label label-keyword">NodeJS</span>
+                                                    <span class="label label-keyword">PHP</span><span class="label label-keyword">Python</span><span class="label label-keyword">Qt</span><span class="label label-keyword">SQL</span><span class="label label-keyword">XML</span></div>
                                             </div>
                                         </li>
                                         <li class="card card-nested card-skills">
@@ -1413,8 +1478,7 @@
                                             </div>
                                             <div class="skill-info"><strong>Database management</strong>
                                                 <div class="space-top labels"><span class="label label-keyword">Borland BDE</span><span class="label label-keyword">MariaDB</span><span class="label label-keyword">Microsoft Access</span><span class="label label-keyword">MySQL</span>
-                                                    <span
-                                                        class="label label-keyword">Oracle Database 11g</span><span class="label label-keyword">SQLite</span></div>
+                                                    <span class="label label-keyword">Oracle Database 11g</span><span class="label label-keyword">SQLite</span></div>
                                             </div>
                                         </li>
                                         <li class="card card-nested card-skills">
@@ -1423,8 +1487,7 @@
                                             </div>
                                             <div class="skill-info"><strong>Operating Systems</strong>
                                                 <div class="space-top labels"><span class="label label-keyword">Debian</span><span class="label label-keyword">Java</span><span class="label label-keyword">Linux-based</span><span class="label label-keyword">Microsoft Windows XP/Vista/7/8/10</span>
-                                                    <span
-                                                        class="label label-keyword">Microsoft Windows Server 2003/2008/2012</span><span class="label label-keyword">Ubuntu</span></div>
+                                                    <span class="label label-keyword">Microsoft Windows Server 2003/2008/2012</span><span class="label label-keyword">Ubuntu</span></div>
                                             </div>
                                         </li>
                                         <li class="card card-nested card-skills">
@@ -1433,10 +1496,8 @@
                                             </div>
                                             <div class="skill-info"><strong>Software Development</strong>
                                                 <div class="space-top labels"><span class="label label-keyword">CVS: Git (GitHub and Bitbucket)</span><span class="label label-keyword">Agile methodologies</span><span class="label label-keyword">SPMP</span><span class="label label-keyword">Software Analyst</span>
-                                                    <span
-                                                        class="label label-keyword">Software design</span><span class="label label-keyword">Use cases diagrams</span><span class="label label-keyword">Class diagrams</span><span class="label label-keyword">Requirements specification</span>
-                                                        <span
-                                                            class="label label-keyword">Unit testing</span>
+                                                    <span class="label label-keyword">Software design</span><span class="label label-keyword">Use cases diagrams</span><span class="label label-keyword">Class diagrams</span><span class="label label-keyword">Requirements specification</span>
+                                                    <span class="label label-keyword">Unit testing</span>
                                                 </div>
                                             </div>
                                         </li>
@@ -1453,17 +1514,16 @@
                                         <li class="card card-nested">
                                             <div class="content">
                                                 <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Pursuing" data-placement="left"></i><strong>Computer Science Engineering, University Degree,&nbsp;</strong>Autonomous University of Barcelona
-                                                    (UAB.cat)</p>
+                                                    (UAB.cat)
+                                                </p>
                                                 <p class="text-muted"><small>Sep, 2013 - Present</small></p><i>Global average GPA: 3.85 (8.86/10 in Europe)</i>
                                                 <div class="space-top labels"><span class="label label-keyword">Algebra and Calculus</span><span class="label label-keyword">Electricity and Electronics</span><span class="label label-keyword">Computer Architecture</span><span class="label label-keyword">Operating Systems</span>
-                                                    <span
-                                                        class="label label-keyword">Software Development</span><span class="label label-keyword">Database Management (RDBMS and NoSQL)</span><span class="label label-keyword">Agile Methodologies</span><span class="label label-keyword">Computer Networks (Advanced)</span>
-                                                        <span
-                                                            class="label label-keyword">Distributed Systems</span><span class="label label-keyword">Systems Administration</span><span class="label label-keyword">Information and Security (Advanced)</span><span class="label label-keyword">PKI</span>
-                                                            <span
-                                                                class="label label-keyword">Big Data</span><span class="label label-keyword">Web Services</span><span class="label label-keyword">DevOps</span><span class="label label-keyword">Blockchain and Bitcoin technology (Advanced)</span>
-                                                                <span
-                                                                    class="label label-keyword">Bitcoin Payment Channels</span>
+                                                    <span class="label label-keyword">Software Development</span><span class="label label-keyword">Database Management (RDBMS and NoSQL)</span><span class="label label-keyword">Agile Methodologies</span>
+                                                    <span class="label label-keyword">Computer Networks (Advanced)</span>
+                                                    <span class="label label-keyword">Distributed Systems</span><span class="label label-keyword">Systems Administration</span><span class="label label-keyword">Information and Security (Advanced)</span>
+                                                    <span class="label label-keyword">PKI</span>
+                                                    <span class="label label-keyword">Big Data</span><span class="label label-keyword">Web Services</span><span class="label label-keyword">DevOps</span><span class="label label-keyword">Blockchain and Bitcoin technology (Advanced)</span>
+                                                    <span class="label label-keyword">Bitcoin Payment Channels</span>
                                                 </div>
                                             </div>
                                         </li>
@@ -1472,8 +1532,9 @@
                                                 <p class="clear-margin relative"><strong>Science and Technology, High school,&nbsp;</strong>Institut de Mollet del Vallès (iesmollet.net)</p>
                                                 <p class="text-muted"><small>Sep, 2011 - Jun, 2013</small></p><i>Global average GPA: 3.96 (9.76/10 in Europe)</i>
                                                 <div class="space-top labels"><span class="label label-keyword">Catalan</span><span class="label label-keyword">Spanish</span><span class="label label-keyword">English</span><span class="label label-keyword">Industrial technology</span>
-                                                    <span
-                                                        class="label label-keyword">Maths</span><span class="label label-keyword">Physics</span><span class="label label-keyword">Technical Design (and CAID)</span><span class="label label-keyword">Enterpreneurship</span><span class="label label-keyword">Internship (as computer technician)</span></div>
+                                                    <span class="label label-keyword">Maths</span><span class="label label-keyword">Physics</span><span class="label label-keyword">Technical Design (and CAID)</span><span class="label label-keyword">Enterpreneurship</span>
+                                                    <span class="label label-keyword">Internship (as computer technician)</span>
+                                                </div>
                                             </div>
                                         </li>
                                     </ul>
@@ -1493,7 +1554,8 @@
                                                 <div class="mop-wrapper">
                                                     <p>TOP Enginyeria is an engineering gamification program implemented in several engineering degrees that aims students to go further than classes with extra projects, competitions, challenges and games
                                                         apart from traditional classes, awarding the best students with symbolic rewards and extra activities to motivate them in their studies and improve their rivailry to get the best performance possible
-                                                        https://bit.ly/deic-gf-davidlj95</p>
+                                                        https://bit.ly/deic-gf-davidlj95
+                                                    </p>
                                                 </div>
                                             </div>
                                         </li>
