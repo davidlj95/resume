@@ -1,0 +1,2 @@
+cmd: ./export.sh
+name: "Exports the resume in different viewable formats"
