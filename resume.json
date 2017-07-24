@@ -6,7 +6,7 @@
         "email": "mail@davidlj95.com",
         "phone": "+34 644 449 360",
         "website": "https://www.davidlj95.com",
-        "summary": "Technology and specially computer science has always been a diversion since a was a teenager at highschool. Since I discovered computer science, I decided to turn my hobby into my profession, and started learning computer science on my own. After that, I decided to study a computer science engineering degree at UAB.cat and have been launching several projects as a freelance since then. Not just to provide IT services to businesses but also developing innovative projects on my own and with some colleagues to try to help evolve our world into the future",
+        "summary": "Technology and specially computer science has always been a diversion since a was a teenager at highschool. Since I discovered computer science, I decided to turn my hobby into my profession, and started learning computer science on my own. After that, I decided to study a computer science engineering degree at UAB.cat and have been launching several projects as a freelance since then. Not just to provide IT services to businesses but also developing innovative projects on my own with some colleagues to try to help evolve our world into the future",
         "location": {
             "address": "",
             "postalCode": "",
@@ -56,6 +56,7 @@
         "position": "Software Developer (as freelance in an internship)",
         "website": "http://www.seat.com",
         "startDate": "2017-03-13",
+	"endDate": "2017-06-19",
         "summary": "Integration and adaptation of the IBC Biomechanics software with SEAT IT Systems for its internal biomechanical laboratory in the CARS center within the Martorell headquarters",
         "highlights": [
             "Python 3.6 (using Anaconda)",
@@ -99,6 +100,7 @@
         "area": "Computer Science Engineering",
         "studyType": "University Degree",
         "startDate": "2013-09-13",
+	"endDate": "2017-06-20",
         "gpa": "Global average GPA: 3.85 (8.86/10 in Europe)",
         "courses": [
             "Algebra and Calculus",
@@ -116,8 +118,8 @@
             "Big Data",
             "Web Services",
             "DevOps",
-            "Blockchain and Bitcoin technology (Advanced)",
-            "Bitcoin Payment Channels"
+            "Blockchain technology (Advanced)",
+            "Bitcoin development (Advanced)"
         ]
     }, {
         "institution": "Institut de Mollet del Vallès (iesmollet.net)",
@@ -139,16 +141,15 @@
     }],
     "skills": [
         {
-            "name": "Web Development",
+            "name": "Cybersecurity and cryptography",
             "level": "Master",
             "keywords": [
-                "HTML5",
-                "CSS3",
-                "Javascript", "AJAX",
-                "PHP",
-                "Responsive design",
-                "Bootstrap",
-                "Jekyll"
+                "Symmetric cryptography (AES, DSA)",
+                "Public-key cryptography (RSA, ECDSA, ElGamal)",
+                "Shared-secret-schemes",
+                "Public Key Infrastructure (PKI)",
+                "Blockchain technology",
+                "Bitcoin cryptocurrency"
             ]
         },
         {
@@ -167,22 +168,23 @@
             ]
         },
         {
-            "name": "Cybersecurity and cryptography",
+            "name": "Web Development",
             "level": "Master",
             "keywords": [
-                "Symmetric cryptography (AES, DSA)",
-                "Public-key cryptography (RSA, ECDSA, ElGamal)",
-                "Shared-secret-schemes",
-                "Public Key Infrastructure (PKI)",
-                "Blockchain technology",
-                "Bitcoin cryptocurrency"
+                "HTML5",
+                "CSS3",
+                "Javascript", "AJAX",
+                "PHP",
+                "Responsive design",
+                "Bootstrap",
+                "Jekyll"
             ]
         },
         {
             "name": "Programming (and markup) languages and frameworks",
             "level": "Master",
             "keywords": [
-                "Android", "Assembly (Intel x86_64)", "Bash / Shell", "Batch/DOS", "C", "C++", "CSS3", "HTML5", "JavaEE (J2EE)", "JavaSE", "JavaScript", "JSON", "LaTeX", "NodeJS", "PHP", "Python", "Qt", "SQL", "XML"
+                "Android", "Assembly (Intel x86_64)", "Bash / Shell", "Batch/DOS", "C", "C++", "CSS3", "HTML5", "JavaEE (J2EE)", "JavaSE", "JavaScript", "JSON", "LaTeX", "Markdown", "NodeJS", "PHP", "Python", "Qt", "SQL", "XML"
             ]
         },
         {
@@ -208,7 +210,7 @@
             "name": "Software Development",
             "level": "Advanced",
             "keywords": [
-                "CVS: Git (GitHub and Bitbucket)",
+                "CVS: Git, Git-flow (+GitHub and Bitbucket)",
                 "Agile methodologies",
                 "SPMP",
                 "Software Analyst",

@@ -1,1627 +1,1021 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>David LJ | Resume</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <meta name="msapplication-TileColor" content="#265C83">
-    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#265C83">
-    <meta name="description" content="David LJ career resume website">
-    <meta name="author" content="@davidlj95">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <style>
-        @font-face {
-            font-family: 'icomoon';
-            src: url('fonts/icomoon.eot?9yug7q');
-            src: url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
-            url('fonts/icomoon.ttf?9yug7q') format('truetype'),
-            url('fonts/icomoon.woff?9yug7q') format('woff'),
-            url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-
-        [class^="icon-"],
-        [class*=" icon-"] {
-            /* use !important to prevent issues with browser extensions that change fonts */
-            font-family: 'icomoon' !important;
-            speak: none;
-            font-style: normal;
-            font-weight: normal;
-            font-variant: normal;
-            text-transform: none;
-            line-height: 1;
-
-            /* Better Font Rendering =========== */
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        .icon-instagram:before {
-            content: "\e905";
-        }
-
-        .icon-trophy:before {
-            content: "\e605";
-        }
-
-        .icon-office:before {
-            content: "\e606";
-        }
-
-        .icon-clock:before {
-            content: "\e60a";
-        }
-
-        .icon-reddit:before {
-            content: "\e609";
-        }
-
-        .icon-telegram:before {
-            content: "\e904";
-        }
-
-        .icon-flickr:before {
-            content: "\f16e";
-        }
-
-        .icon-medium:before {
-            content: "\f23a";
-        }
-
-        .icon-heart:before {
-            content: "\f004";
-        }
-
-        .icon-book:before {
-            content: "\f02d";
-        }
-
-        .icon-linkedin:before {
-            content: "\f08c";
-        }
-
-        .icon-twitter:before {
-            content: "\f099";
-        }
-
-        .icon-github:before {
-            content: "\f09b";
-        }
-
-        .icon-link:before {
-            content: "\f0c1";
-        }
-
-        .icon-bars:before {
-            content: "\f0c9";
-        }
-
-        .icon-pinterest:before {
-            content: "\f0d2";
-        }
-
-        .icon-googleplus:before {
-            content: "\f0d5";
-        }
-
-        .icon-circle:before {
-            content: "\f111";
-        }
-
-        .icon-code:before {
-            content: "\f121";
-        }
-
-        .icon-youtube:before {
-            content: "\f167";
-        }
-
-        .icon-stackoverflow:before {
-            content: "\f16c";
-        }
-
-        .icon-bitbucket:before {
-            content: "\f171";
-        }
-
-        .icon-tumblr:before {
-            content: "\f173";
-        }
-
-        .icon-dribbble:before {
-            content: "\f17d";
-        }
-
-        .icon-skype:before {
-            content: "\f17e";
-        }
-
-        .icon-foursquare:before {
-            content: "\f180";
-        }
-
-        .icon-gittip:before {
-            content: "\f184";
-        }
-
-        .icon-gratipay:before {
-            content: "\f184";
-        }
-
-        .icon-stackexchange:before {
-            content: "\f18d";
-        }
-
-        .icon-vimeo:before {
-            content: "\f194";
-        }
-
-        .icon-graduation-cap:before {
-            content: "\f19d";
-        }
-
-        .icon-language:before {
-            content: "\f1ab";
-        }
-
-        .icon-child:before {
-            content: "\f1ae";
-        }
-
-        .icon-behance:before {
-            content: "\f1b5";
-        }
-
-        .icon-spotify:before {
-            content: "\f1bc";
-        }
-
-        .icon-soundcloud:before {
-            content: "\f1be";
-        }
-
-        .icon-codepen:before {
-            content: "\f1cb";
-        }
-
-        .icon-hackernews:before {
-            content: "\f1d4";
-        }
-
-        .icon-lastfm:before {
-            content: "\f202";
-        }
-
-        .icon-angellist:before {
-            content: "\f209";
-        }
-
-        .icon-facebook:before {
-            content: "\f230";
-        }
-
-        .icon-meetup .path1:before {
-            content: "\e901";
-            color: rgb(255, 255, 255);
-        }
-
-        .icon-meetup .path2:before {
-            content: "\e902";
-            margin-left: -1.5em;
-            color: rgb(240, 1, 1);
-        }
-
-        .icon-meetup .path3:before {
-            content: "\e903";
-            margin-left: -1.5em;
-            color: rgb(3, 3, 3);
-        }
-
-        .icon-blogger:before {
-            content: "\e900";
-        }
-
-        .icon-exercism:before {
-            content: "\e601";
-        }
-
-        .icon-profile:before {
-            content: "\e600";
-        }
-
-        .icon-tools:before {
-            content: "\e034";
-        }
-
-        .icon-location:before {
-            content: "\e602";
-        }
-
-        .icon-mail:before {
-            content: "\e603";
-        }
-
-        .icon-phone:before {
-            content: "\e03f";
-        }
-
-        .icon-newspaper:before {
-            content: "\e607";
-        }
-
-        .icon-dots-three-horizontal:before {
-            content: "\e60b";
-        }
-
-        .icon-thumbs-up:before {
-            content: "\e604";
-        }
-
-        .icon-chevron-down:before {
-            content: "\e60c";
-        }
-
-        .icon-chevron-up:before {
-            content: "\e60d";
-        }
-
-        .icon-dots-three-horizontal:before {
-            content: "\e60b";
-        }
-
-        .icon-thumbs-up:before {
-            content: "\e604";
-        }
-
-        .icon-board:before {
-            content: "\e608";
-        }
-
-
-        .relative {
-            position: relative;
-        }
-
-        .clear-margin {
-            margin: 0;
-        }
-
-        .space-top {
-            margin-top: 10px;
-        }
-
-        .space-right {
-            margin-right: 10px;
-        }
-
-        .space-bottom {
-            margin-bottom: 10px;
-        }
-
-        .mr-5 {
-            margin-right: 5px;
-        }
-
-        .mr-10 {
-            margin-right: 10px;
-        }
-
-        .ml-5 {
-            margin-left: 5px;
-        }
-
-        .labels {
-            line-height: 2;
-        }
-
-        .label-keyword {
-            display: inline-block;
-            background: #7eb0db;
-            color: white;
-            font-size: 0.9em;
-            padding: 5px;
-            border: 1px solid #357ebd;
-            margin-right: 5px;
-        }
-
-        .label-keyword:last-child {
-            margin-right: 0;
-        }
-
-        .link-disguise {
-            color: inherit;
-        }
-
-        .link-disguise:hover {
-            color: inherit;
-        }
-
-        .clear-margin {
-            margin: 0;
-        }
-
-        @media (max-width: 992px) {
-            .clear-margin-sm {
-                margin-bottom: 0;
-            }
-        }
-
-        .fs-lg {
-            font-size: 1.33333333em;
-            line-height: .75em;
-            vertical-align: -15%;
-        }
-
-        .fs-2x {
-            font-size: 2em;
-        }
-
-        .fs-3x {
-            font-size: 3em;
-        }
-
-        .fs-4x {
-            font-size: 4em;
-        }
-
-        .btn-circle-sm {
-            width: 28px;
-            height: 28px;
-            line-height: 28px;
-            border-radius: 50%;
-            text-align: center;
-            padding: 0;
-            outline: none !important;
-        }
-
-        @font-face {
-            font-family: 'jst-elegant';
-            src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
-            src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-
-        [class^="icon-"],
-        [class*=" icon-"] {
-            /* use !important to prevent issues with browser extensions that change fonts */
-            font-family: 'jst-elegant' !important;
-        }
-
-        body {
-            font-family: 'Lato';
-            background: #f0f0f0;
-            color: #333;
-        }
-
-        .main {
-            padding: 5px;
-        }
-
-        .card {
-            background: white;
-            border: 1px solid #e6e6e6;
-            border-radius: 3px;
-            min-height: 300px;
-            padding: 10px 0;
-        }
-
-        .card-nested {
-            min-height: 0;
-            border-width: 1px 0 0 0;
-        }
-
-        .card-nested:before,
-        .card-nested:after {
-            content: " ";
-            display: table;
-        }
-
-        .card-nested:after {
-            clear: both;
-        }
-
-        @media (max-width: 480px) {
-            .card-nested {
-                padding: 5px 0;
-            }
-        }
-
-        .background-card {
-            padding: 10px 20px;
-        }
-
-        .card-wrapper {
-            padding: 5px;
-        }
-
-        @media (max-width: 992px) {
-            .card-wrapper {
-                float: none !important;
-            }
-        }
-
-        .background-details .detail {
-            display: table;
-        }
-
-        .background-details .detail .icon {
-            min-width: 45px;
-            max-width: 45px;
-            text-align: center;
-        }
-
-        .background-details .detail .info {
-            width: 100%;
-        }
-
-        .background-details .detail .title,
-        .background-details .detail .icon {
-            color: #707070;
-        }
-
-        .background-details .detail .mobile-title {
-            display: none;
-        }
-
-        @media (max-width: 480px) {
-            .background-details .detail .mobile-title {
-                display: inline-block;
-                margin-left: 5px;
-                font-weight: bold;
-                text-transform: uppercase;
-                vertical-align: middle;
-            }
-        }
-
-        .background-details .detail .icon,
-        .background-details .detail .info {
-            display: table-cell;
-            padding: 0 10px;
-        }
-
-        @media (max-width: 480px) {
-            .background-details .detail {
-                display: block;
-            }
-            .background-details .detail .icon {
-                max-width: inherit;
-                min-width: inherit;
-                text-align: left;
-            }
-            .background-details .detail .icon,
-            .background-details .detail .info {
-                display: block;
-                padding: 10px 0;
-            }
-            .background-details .detail .title {
-                display: none;
-            }
-        }
-
-        .info .content.has-sidebar {
-            width: 80%;
-            box-sizing: border-box;
-            float: left;
-            padding: 0 10px;
-            border-right: 1px solid #cdcdcd;
-        }
-
-        @media (max-width: 992px) {
-            .info .content.has-sidebar {
-                width: 100%;
-                border-right: 0;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .info .content.has-sidebar {
-                padding: 0 2px;
-            }
-        }
-
-        .info .sidebar {
-            margin-left: 80%;
-            box-sizing: border-box;
-            padding: 10px;
-        }
-
-        @media (max-width: 480px) {
-            ul {
-                padding-left: 25px;
-            }
-        }
-
-        .current-event {
-            font-size: 8px;
-            color: #5ACE24;
-            position: absolute;
-            right: 100%;
-            top: 4px;
-            left: -10px;
-        }
-
-        .mop-wrapper>p:last-child {
-            margin: 0;
-        }
-        /*
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>David Lozano Jarque</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9yug7q');
+  src:  url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9yug7q') format('truetype'),
+    url('fonts/icomoon.woff?9yug7q') format('woff'),
+    url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e605";
+}
+.icon-office:before {
+  content: "\e606";
+}
+.icon-clock:before {
+  content: "\e60a";
+}
+.icon-reddit:before {
+  content: "\e609";
+}
+.icon-telegram:before {
+  content: "\e904";
+}
+.icon-flickr:before {
+  content: "\f16e";
+}
+.icon-medium:before {
+  content: "\f23a";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-linkedin:before {
+  content: "\f08c";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-link:before {
+  content: "\f0c1";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+.icon-googleplus:before {
+  content: "\f0d5";
+}
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-code:before {
+  content: "\f121";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-stackoverflow:before {
+  content: "\f16c";
+}
+.icon-bitbucket:before {
+  content: "\f171";
+}
+.icon-tumblr:before {
+  content: "\f173";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-skype:before {
+  content: "\f17e";
+}
+.icon-foursquare:before {
+  content: "\f180";
+}
+.icon-gittip:before {
+  content: "\f184";
+}
+.icon-gratipay:before {
+  content: "\f184";
+}
+.icon-stackexchange:before {
+  content: "\f18d";
+}
+.icon-vimeo:before {
+  content: "\f194";
+}
+.icon-graduation-cap:before {
+  content: "\f19d";
+}
+.icon-language:before {
+  content: "\f1ab";
+}
+.icon-child:before {
+  content: "\f1ae";
+}
+.icon-behance:before {
+  content: "\f1b5";
+}
+.icon-spotify:before {
+  content: "\f1bc";
+}
+.icon-soundcloud:before {
+  content: "\f1be";
+}
+.icon-codepen:before {
+  content: "\f1cb";
+}
+.icon-hackernews:before {
+  content: "\f1d4";
+}
+.icon-lastfm:before {
+  content: "\f202";
+}
+.icon-angellist:before {
+  content: "\f209";
+}
+.icon-facebook:before {
+  content: "\f230";
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
+}
+.icon-profile:before {
+  content: "\e600";
+}
+.icon-tools:before {
+  content: "\e034";
+}
+.icon-location:before {
+  content: "\e602";
+}
+.icon-mail:before {
+  content: "\e603";
+}
+.icon-phone:before {
+  content: "\e03f";
+}
+.icon-newspaper:before {
+  content: "\e607";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-chevron-down:before {
+  content: "\e60c";
+}
+.icon-chevron-up:before {
+  content: "\e60d";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-board:before {
+  content: "\e608";
+}
+
+
+.relative {
+  position: relative;
+}
+.clear-margin {
+  margin: 0;
+}
+.space-top {
+  margin-top: 10px;
+}
+.space-right {
+  margin-right: 10px;
+}
+.space-bottom {
+  margin-bottom: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.labels {
+  line-height: 2;
+}
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+  margin-right: 5px;
+}
+.label-keyword:last-child {
+  margin-right: 0;
+}
+.link-disguise {
+  color: inherit;
+}
+.link-disguise:hover {
+  color: inherit;
+}
+.clear-margin {
+  margin: 0;
+}
+@media (max-width: 992px) {
+  .clear-margin-sm {
+    margin-bottom: 0;
+  }
+}
+.fs-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+.fs-2x {
+  font-size: 2em;
+}
+.fs-3x {
+  font-size: 3em;
+}
+.fs-4x {
+  font-size: 4em;
+}
+.btn-circle-sm {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0;
+  outline: none !important;
+}
+@font-face {
+  font-family: 'jst-elegant';
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jst-elegant' !important;
+}
+body {
+  font-family: 'Lato';
+  background: #f0f0f0;
+  color: #333;
+}
+.main {
+  padding: 5px;
+}
+.card {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  min-height: 300px;
+  padding: 10px 0;
+}
+.card-nested {
+  min-height: 0;
+  border-width: 1px 0 0 0;
+}
+.card-nested:before,
+.card-nested:after {
+  content: " ";
+  display: table;
+}
+.card-nested:after {
+  clear: both;
+}
+@media (max-width: 480px) {
+  .card-nested {
+    padding: 5px 0;
+  }
+}
+.background-card {
+  padding: 10px 20px;
+}
+.card-wrapper {
+  padding: 5px;
+}
+@media (max-width: 992px) {
+  .card-wrapper {
+    float: none !important;
+  }
+}
+.background-details .detail {
+  display: table;
+}
+.background-details .detail .icon {
+  min-width: 45px;
+  max-width: 45px;
+  text-align: center;
+}
+.background-details .detail .info {
+  width: 100%;
+}
+.background-details .detail .title,
+.background-details .detail .icon {
+  color: #707070;
+}
+.background-details .detail .mobile-title {
+  display: none;
+}
+@media (max-width: 480px) {
+  .background-details .detail .mobile-title {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+}
+.background-details .detail .icon,
+.background-details .detail .info {
+  display: table-cell;
+  padding: 0 10px;
+}
+@media (max-width: 480px) {
+  .background-details .detail {
+    display: block;
+  }
+  .background-details .detail .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
+  }
+  .background-details .detail .icon,
+  .background-details .detail .info {
+    display: block;
+    padding: 10px 0;
+  }
+  .background-details .detail .title {
+    display: none;
+  }
+}
+.info .content.has-sidebar {
+  width: 80%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #cdcdcd;
+}
+@media (max-width: 992px) {
+  .info .content.has-sidebar {
+    width: 100%;
+    border-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .info .content.has-sidebar {
+    padding: 0 2px;
+  }
+}
+.info .sidebar {
+  margin-left: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  ul {
+    padding-left: 25px;
+  }
+}
+.current-event {
+  font-size: 8px;
+  color: #5ACE24;
+  position: absolute;
+  right: 100%;
+  top: 4px;
+  left: -10px;
+}
+.mop-wrapper > p:last-child {
+  margin: 0;
+}
+/*
     Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
 */
-
-        .floating-nav-trigger {
-            width: 50px;
-            height: 50px;
-            -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-            -webkit-transition: background-color 0.5s ease;
-            -o-transition: background-color 0.5s ease;
-            transition: background-color 0.5s ease;
-            display: block;
-            border-radius: 50%;
-            text-align: center;
-            background-color: white;
-            font-size: 1.5em;
-            color: #357ebd;
-            z-index: 100;
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            text-decoration: none !important;
-        }
-
-        .floating-nav-trigger>[class^="icon-"],
-        .floating-nav-trigger [class*=" icon-"],
-        .floating-nav-trigger>.close-icon {
-            line-height: 50px;
-        }
-
-        .floating-nav-trigger .close-icon {
-            display: none;
-        }
-
-        .floating-nav-trigger:hover {
-            color: #1f496e;
-            background-color: #e6e6e6;
-        }
-
-        .floating-nav-trigger.is-open {
-            -webkit-box-shadow: none;
-            box-shadow: none;
-        }
-
-        .floating-nav-trigger.is-open .close-icon {
-            display: inherit;
-        }
-
-        .floating-nav-trigger.is-open .icon-bars {
-            display: none;
-        }
-
-        .floating-nav-trigger.is-open:hover {
-            background-color: white;
-        }
-
-        .floating-nav {
-            -webkit-transform: scale(0);
-            -ms-transform: scale(0);
-            -o-transform: scale(0);
-            transform: scale(0);
-            -webkit-transform-origin: 100% 100%;
-            -moz-transform-origin: 100% 100%;
-            -ms-transform-origin: 100% 100%;
-            transform-origin: 100% 100%;
-            -webkit-transition: transform 0.3s, visibility 0s 0.3s;
-            -o-transition: transform 0.3s, visibility 0s 0.3s;
-            transition: transform 0.3s, visibility 0s 0.3s;
-            -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
-            position: fixed;
-            z-index: 50;
-            right: 10px;
-            bottom: 10px;
-            background-color: white;
-            width: 90%;
-            max-width: 400px;
-            visibility: hidden;
-            overflow: hidden;
-        }
-
-        .floating-nav ul {
-            font-size: 1.2em;
-            margin: 0;
-        }
-
-        .floating-nav ul li {
-            border-bottom: 1px solid #eff2f6;
-        }
-
-        .floating-nav ul li a {
-            padding: 20px;
-            text-decoration: none;
-            color: #357ebd;
-            display: block;
-        }
-
-        .floating-nav ul li a:hover {
-            color: #1f496e;
-        }
-
-        .floating-nav ul li:last-child {
-            border-bottom: 0;
-        }
-
-        .floating-nav.is-visible {
-            -webkit-transform: scale(1);
-            -ms-transform: scale(1);
-            -o-transform: scale(1);
-            transform: scale(1);
-            -webkit-transition: transform 0.3s, visibility 0s 0s;
-            -o-transition: transform 0.3s, visibility 0s 0s;
-            transition: transform 0.3s, visibility 0s 0s;
-            visibility: visible;
-        }
-
-        @media (max-width: 992px) {
-            .profile-card-wrapper {
-                position: relative;
-            }
-        }
-
-        .profile-card-wrapper .profile-card {
-            padding: 10px;
-        }
-
-        .profile-pic {
-            padding: 20px 0;
-        }
-
-        @media (max-width: 992px) {
-            .profile-pic {
-                padding: 10px 0;
-            }
-        }
-
-        .profile-pic img {
-            width: 100px;
-            height: 100px;
-        }
-
-        @media (max-width: 992px) {
-            .name {
-                margin-top: 10px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .contact-details {
-                text-align: center;
-            }
-        }
-
-        .contact-details .detail {
-            display: table;
-            padding: 10px 0;
-        }
-
-        .contact-details .detail .icon {
-            padding: 0 10px;
-            color: #707070;
-        }
-
-        @media (max-width: 992px) {
-            .contact-details .detail .icon {
-                padding: 0 5px 0 0;
-            }
-        }
-
-        .contact-details .detail .info {
-            font-size: 0.8em;
-        }
-
-        .contact-details .detail .icon,
-        .contact-details .detail .info {
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-        @media (max-width: 768px) {
-            .contact-details .detail {
-                position: relative;
-                float: left;
-                width: 100%;
-                min-height: 1px;
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .contact-details .detail {
-                position: relative;
-                min-height: 1px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding: 10px;
-            }
-            .contact-details .detail .icon,
-            .contact-details .detail .info {
-                display: inline-block;
-            }
-        }
-
-        @media (max-width: 992px) and (min-width: 768px) {
-            .contact-details .detail {
-                float: left;
-                width: 25%;
-            }
-        }
-
-        .social-links {
-            line-height: 2.5;
-        }
-
-        .social-link {
-            margin-left: 5px;
-            min-width: 35px;
-            display: inline-block;
-        }
-
-        .social-link:first-child {
-            margin-left: 0;
-        }
-
-        .social-link:hover {
-            text-decoration: none;
-        }
-
-        .link-github {
-            color: #454545;
-        }
-
-        .link-github:hover,
-        .link-github:focus {
-            text-decoration: none;
-            color: #2b2b2b;
-        }
-
-        .link-twitter {
-            color: #33ccff;
-        }
-
-        .link-twitter:hover,
-        .link-twitter:focus {
-            text-decoration: none;
-            color: #00bfff;
-        }
-
-        .link-blog {
-            color: #f36f24;
-        }
-
-        .link-blog:hover,
-        .link-blog:focus {
-            text-decoration: none;
-            color: #d8560c;
-        }
-
-        .link-linkedin {
-            color: #007bb6;
-        }
-
-        .link-linkedin:hover,
-        .link-linkedin:focus {
-            text-decoration: none;
-            color: #005983;
-        }
-
-        .link-skype {
-            color: #12A5F4;
-        }
-
-        .link-skype:hover,
-        .link-skype:focus {
-            text-decoration: none;
-            color: #0986ca;
-        }
-
-        .link-instagram {
-            color: #e4405f;
-        }
-
-        .link-instagram:hover,
-        .link-instagram:focus {
-            text-decoration: none;
-            color: #d31e40;
-        }
-
-        .link-stackoverflow {
-            color: #8e8e92;
-        }
-
-        .link-stackoverflow:hover,
-        .link-stackoverflow:focus {
-            text-decoration: none;
-            color: #747479;
-        }
-
-        .link-stackexchange {
-            color: #62b0df;
-        }
-
-        .link-stackexchange:hover,
-        .link-stackexchange:focus {
-            text-decoration: none;
-            color: #389bd6;
-        }
-
-        .link-lastfm {
-            color: #d12127;
-        }
-
-        .link-lastfm:hover,
-        .link-lastfm:focus {
-            text-decoration: none;
-            color: #a51a1f;
-        }
-
-        .link-soundcloud {
-            color: #e8822d;
-        }
-
-        .link-soundcloud:hover,
-        .link-soundcloud:focus {
-            text-decoration: none;
-            color: #cc6916;
-        }
-
-        .link-googleplus {
-            color: #dd4b39;
-        }
-
-        .link-googleplus:hover,
-        .link-googleplus:focus {
-            text-decoration: none;
-            color: #c23321;
-        }
-
-        .link-youtube {
-            color: #dd4b39;
-        }
-
-        .link-youtube:hover,
-        .link-youtube:focus {
-            text-decoration: none;
-            color: #c23321;
-        }
-
-        .link-pinterest {
-            color: #bd091f;
-        }
-
-        .link-pinterest:hover,
-        .link-pinterest:focus {
-            text-decoration: none;
-            color: #8c0717;
-        }
-
-        .link-gratipay {
-            color: #630;
-        }
-
-        .link-gratipay:hover,
-        .link-gratipay:focus {
-            text-decoration: none;
-            color: #331a00;
-        }
-
-        .link-vimeo {
-            color: #17b3e8;
-        }
-
-        .link-vimeo:hover,
-        .link-vimeo:focus {
-            text-decoration: none;
-            color: #128fba;
-        }
-
-        .link-behance {
-            color: #2c98cf;
-        }
-
-        .link-behance:hover,
-        .link-behance:focus {
-            text-decoration: none;
-            color: #2379a5;
-        }
-
-        .link-codepen {
-            color: #1c1c1c;
-        }
-
-        .link-codepen:hover,
-        .link-codepen:focus {
-            text-decoration: none;
-            color: #020202;
-        }
-
-        .link-foursquare {
-            color: #fa4778;
-        }
-
-        .link-foursquare:hover,
-        .link-foursquare:focus {
-            text-decoration: none;
-            color: #f91554;
-        }
-
-        .link-reddit {
-            color: #545454;
-        }
-
-        .link-reddit:hover,
-        .link-reddit:focus {
-            text-decoration: none;
-            color: #3b3b3b;
-        }
-
-        .link-spotify {
-            color: #acd200;
-        }
-
-        .link-spotify:hover,
-        .link-spotify:focus {
-            text-decoration: none;
-            color: #829f00;
-        }
-
-        .link-tumblr {
-            color: #2d4661;
-        }
-
-        .link-tumblr:hover,
-        .link-tumblr:focus {
-            text-decoration: none;
-            color: #1d2d3e;
-        }
-
-        .link-dribbble {
-            color: #ce366f;
-        }
-
-        .link-dribbble:hover,
-        .link-dribbble:focus {
-            text-decoration: none;
-            color: #a82959;
-        }
-
-        .link-facebook {
-            color: #4b6daa;
-        }
-
-        .link-facebook:hover,
-        .link-facebook:focus {
-            text-decoration: none;
-            color: #3b5687;
-        }
-
-        .link-angellist {
-            color: black;
-        }
-
-        .link-angellist:hover,
-        .link-angellist:focus {
-            text-decoration: none;
-            color: #000000;
-        }
-
-        .link-bitbucket {
-            color: #205081;
-        }
-
-        .link-bitbucket:hover,
-        .link-bitbucket:focus {
-            text-decoration: none;
-            color: #163758;
-        }
-
-        .link-hackernews {
-            color: #ff6600;
-        }
-
-        .link-hackernews:hover,
-        .link-hackernews:focus {
-            text-decoration: none;
-            color: #cc5200;
-        }
-
-        .link-exercism {
-            color: #d81d4e;
-        }
-
-        .link-exercism:hover,
-        .link-exercism:focus {
-            text-decoration: none;
-            color: #ab173e;
-        }
-
-        .link-blogger {
-            color: #FF9234;
-        }
-
-        .link-blogger:hover,
-        .link-blogger:focus {
-            text-decoration: none;
-            color: #ff7701;
-        }
-
-        .link-medium {
-            color: #00AB6C;
-        }
-
-        .link-medium:hover,
-        .link-medium:focus {
-            text-decoration: none;
-            color: #00784c;
-        }
-
-        .link-flickr {
-            color: black;
-        }
-
-        .link-flickr:hover,
-        .link-flickr:focus {
-            text-decoration: none;
-            color: #000000;
-        }
-
-        .link-telegram {
-            color: #3BABDD;
-        }
-
-        .link-telegram:hover,
-        .link-telegram:focus {
-            text-decoration: none;
-            color: #2291c3;
-        }
-
-        .card-skills {
-            position: relative;
-        }
-
-        .skill-level {
-            border-radius: 3px;
-            position: absolute;
-            top: 10px;
-            bottom: 10px;
-            left: 0;
-            width: 10px;
-            box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-        }
-
-        .skill-level .skill-progress {
-            position: absolute;
-            border-radius: 3px;
-            bottom: 0;
-            width: 100%;
-            -webkit-transition: height 1s ease;
-        }
-
-        .skill-level .skill-progress.beginner {
-            height: 50%;
-            background: #e74c3c;
-        }
-
-        .skill-level .skill-progress.intermediate {
-            height: 70%;
-            background: #f1c40f;
-        }
-
-        .skill-level .skill-progress.advanced {
-            height: 80%;
-            background: #428bca;
-        }
-
-        .skill-level .skill-progress.master {
-            height: 95%;
-            background: #5cb85c;
-        }
-
-        .skill-info {
-            margin-left: 15px;
-        }
-
-        @media (max-width: 480px) {
-            .skill-info {
-                margin-left: 20px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .quote {
-                font-size: inherit;
-            }
-        }
-
-        .icon-meetup .path2:before {
-            margin-left: 0;
-        }
-
-        @media print {
-            a[href]:after {
-                content: none !important;
-            }
-            .profile-card {
-                text-align: center;
-            }
-            .profile-pic {
-                display: inline-block;
-                vertical-align: middle;
-            }
-            .profile-pic img {
-                border-radius: 0;
-            }
-            .name-and-profession {
-                display: inline-block;
-                vertical-align: middle;
-                margin-left: 15px;
-            }
-            .contact-details .detail {
-                position: relative;
-                float: left;
-                width: 25%;
-                min-height: 1px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding: 0;
-            }
-            .floating-nav,
-            .floating-nav-trigger {
-                display: none;
-            }
-            .pagebreak {
-                page-break-before: always;
-            }
-            div.export {
-                display: none;
-            }
-            div.presentation-space {
-                display: block !important;
-            }
-        }
-
-        div.export {
-            position: fixed;
-            top: 0;
-            right: 0;
-            z-index: 100;
-            background-color: rgba(127, 127, 127, 0.85);
-            padding: 1.5em;
-            border-radius: 1.5em;
-            margin: 2em 2em 0 0;
-        }
-
-        div.export img {
-            height: 4em;
-        }
-
-        a.export {
-            color: white;
-            font-weight: bold;
-            font-size: 1em;
-            text-decoration: none;
-        }
-
-        @media screen and (max-width:625px) {
-            div.export {
-                margin: 1em 1em;
-                padding: 0.75em;
-            }
-            div.export span {
-                display: none;
-            }
-        }
-    </style>
-</head>
-
-<body itemscope="itemscope" itemtype="http://schema.org/Person">
-    <a class="export" href="davidlj95_Resume.pdf" download>
-        <div class="export">
-            <img src="https://i.imgur.com/ava66Iu.png" />
-            <span>Download as PDF</span>
-        </div>
-    </a>
-    <div class="container-fluid">
-        <div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a>
-            <nav class="floating-nav js-floating-nav">
-                <ul class="list-unstyled">
-                    <li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li>
-                    <li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li>
-                    <li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li>
-                    <li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li>
-                    <li><a href="#awards"><i class="mr-10 icon-trophy"></i>Awards</a></li>
-                </ul>
-            </nav>
-            <section class="col-md-3 card-wrapper profile-card-wrapper affix">
-                <div class="card profile-card">
-                    <div class="presentation-space" style="display:none"><br/><br/><br/><br/><br/><br/><br/><br/></div>
-                    <span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="David Lozano Jarque" src="https://s.gravatar.com/avatar/5b2f04a85edd17fa5944918c142c60c1?s=100&amp;r=pg&amp;d=mm" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>David Lozano Jarque</b></h3><h5 class="text-muted" itemprop="jobTitle">Computer Science Engineer. Passionate Systems Administrator, Full-stack software developer and Cryptography and secure systems fan</h5></div></span>
-                    <hr/>
-                    <div class="contact-details clearfix">
-                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Mollet del Vallès, Barcelona, ES</span></div>
-                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone"><script type="text/javascript">
-                        { coded = "siiiicbsT"
-                          key = "tVMqGZFg9a3YAuEWdczb10Dvy2jLJrTXnw8oxRS56BeIH4Q7ksKNfpiOmlUCPh"
-                          shift=coded.length
-                          link=""
-                          for (i=0; i<coded.length; i++) {
-                            if (key.indexOf(coded.charAt(i))==-1) {
-                              ltr = coded.charAt(i)
-                              link += (ltr)
-                            }
-                            else {
-                              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-                              link += (key.charAt(ltr))
-                            }
-                          }
-                        document.write("<a href='tel:+34"+link+"'>+34 "+link.match(/.{1,3}/g).join(" ")+"</a>")
-                    }</script><noscript>Sorry, you need Javascript on to phone me.</noscript></span></div>
-                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><script type="text/javascript">
-                        { coded = "geGC@ReVGRCvQh.4jg"
-                          key = "aCPvR8yWX9rzqtwb5mei3VL0fKAQBoH7YZhgkGcEJsNFnlOjdI6TDUxu4p2S1M"
-                          shift=coded.length
-                          link=""
-                          for (i=0; i<coded.length; i++) {
-                            if (key.indexOf(coded.charAt(i))==-1) {
-                              ltr = coded.charAt(i)
-                              link += (ltr)
-                            }
-                            else {
-                              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-                              link += (key.charAt(ltr))
-                            }
-                          }
-                        document.write("<a href=\"mailto:"+link+"?subject=I've%20checked%20your%20resume\">"+link+"</a>")
-                    }</script><noscript>Sorry, you need Javascript on to email me.</noscript></span></div>
-                        <div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://www.davidlj95.com" target="_blank">https://www.davidlj95.com</a></span></div>
-                        <div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">Spanish, Catalan, English (fluid)</span></div>
-                    </div>
-                    <hr/>
-                    <div class="social-links text-center">
-                        <div>
-                            <a class="fs-2x social-link link-twitter icon-twitter" href="//twitter.com/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on Twitter"></a>
-                            <a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on LinkedIn"></a>
-                            <a class="fs-2x social-link link-github icon-github" href="//github.com/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on GitHub"></a>
-                            <a class="fs-2x social-link link-bitbucket icon-bitbucket" href="//bitbucket.org/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on BitBucket"></a>
-                            <a class="fs-2x social-link link-stackoverflow icon-stackoverflow" href="//stackoverflow.com/users/3263250/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on StackOverflow"></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="col-md-9 card-wrapper pull-right">
-                <div class="card background-card">
-                    <h4 class="text-uppercase">Background</h4>
-                    <hr/>
-                    <div class="background-details">
-                        <div class="detail" id="about">
-                            <div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div>
-                            <div class="info">
-                                <h4 class="title text-uppercase">About</h4>
-                                <div class="card card-nested">
-                                    <div class="content mop-wrapper" itemprop="description">
-                                        <p>Technology and specially computer science has always been a diversion since a was a teenager at highschool. Since I discovered computer science, I decided to turn my hobby into my profession, and started learning
-                                            computer science on my own. After that, I decided to study a computer science engineering degree at UAB.cat and have been launching several projects as a freelance since then. Not just to provide IT services
-                                            to businesses but also developing innovative projects on my own and with some colleagues to try to help evolve our world into the future</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="page-break-after: always;"></div>
-                        <div class="detail" id="work-experience">
-                            <div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div>
-                            <div class="info">
-                                <h4 class="title text-uppercase">Work Experience</h4>
-                                <ul class="list-unstyled clear-margin">
-                                    <li class="card card-nested clearfix">
-                                        <div class="content">
-                                            <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Software Developer (as freelance in an internship)</strong>,&nbsp;<a href="http://www.seat.com"
-                                                    target="_blank">SEAT S.A.</a></p>
-                                            <p class="text-muted"><small><span class="space-right">Mar, 2017 - Present</span></small></p>
-                                            <div class="mop-wrapper space-bottom">
-                                                <p>Integration and adaptation of the IBC Biomechanics software with SEAT IT Systems for its internal biomechanical laboratory in the CARS center within the Martorell headquarters</p>
-                                            </div>
-                                            <ul>
-                                                <li class="mop-wrapper">
-                                                    <p>Python 3.6 (using Anaconda)</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>GUI(s) using PyQt4/5</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Database managment using ORM frameworks</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>MariaDB RDBMS management</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>SAP integration using APIs</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="card card-nested clearfix">
-                                        <div class="content">
-                                            <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Systems Administrator and IT consultant (as outsourced freelance)</strong>,&nbsp;<a href="http://meditrauma.com"
-                                                    target="_blank">Meditrauma S.L.</a></p>
-                                            <p class="text-muted"><small><span class="space-right">Jan, 2015 - Present</span></small></p>
-                                            <div class="mop-wrapper space-bottom">
-                                                <p>Outsourced IT Systems and Infrastructure accountable of the three company headquarters, performing typical systems administration tasks and IT consultancy</p>
-                                            </div>
-                                            <ul>
-                                                <li class="mop-wrapper">
-                                                    <p>LAN and WLAN TCP/IP networks installation and management (including cibersecurity tasks such as traffic filtering)</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Servers installation and maintenance using Ubuntu and Microsoft Windows Server 2003/2012</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Database setup and maintenance using Borland BDE, Microsoft Access and Microsoft SQL Server 7/2008</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Network file sharing installation and maintenance (with permission management) using Samba protocol</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Network printer spool services installation and maintenance using Canon, HP, Epson printers</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Workstation installation and maintenance using Microsoft Windows 7/8/10 (also migrated old ones from XP) and setting up enterprise sofware including ofimatics and internal ERP customized software(s)</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Installation and maintenance of DICOM networks and services</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Installation and maintenance of point-of-sale devices</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Installation and maintenance of medical equipment hardware and services such as X-Ray machines and ECGs</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>Installation and maintenance of laboral risk prevention devices like audiometers</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="card card-nested clearfix">
-                                        <div class="content">
-                                            <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Software Developer and IT consultant (as freelance)</strong>,&nbsp;<a href="http://ibc.bio" target="_blank">IBC Biomechanics</a></p>
-                                            <p class="text-muted"><small><span class="space-right">Sep, 2014 - Present</span></small></p>
-                                            <div class="mop-wrapper space-bottom">
-                                                <p>Design and development of a customized clinical reports generator software application based on Microsoft Word user-designed templates and using data exported from a collection of third-party applications
-                                                    that capture and analyze data from a patient using optical-tracking camera devices, EMG devices, foot insoles, dynamometers and inertial sensors</p>
-                                            </div>
-                                            <ul>
-                                                <li class="mop-wrapper">
-                                                    <p>Python 2.7 / 3.6 (using Anaconda framework and python-docx library)</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>JavaSE 8 (using PyBluez to handle Bluetooth connections)</p>
-                                                </li>
-                                                <li class="mop-wrapper">
-                                                    <p>GUI(s) using PyQt4/5</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div style="page-break-after: always;"></div>
-                        <div class="detail" id="skills">
-                            <div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div>
-                            <div class="info">
-                                <h4 class="title text-uppercase">Skills</h4>
-                                <div class="content">
-                                    <ul class="list-unstyled clear-margin">
-                                        <li class="card card-nested card-skills">
-                                            <div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left">
-                                                <div class="skill-progress master"></div>
-                                            </div>
-                                            <div class="skill-info"><strong>Web Development</strong>
-                                                <div class="space-top labels"><span class="label label-keyword">HTML5</span><span class="label label-keyword">CSS3</span><span class="label label-keyword">Javascript</span><span class="label label-keyword">AJAX</span><span class="label label-keyword">PHP</span>
-                                                    <span class="label label-keyword">Responsive design</span><span class="label label-keyword">Bootstrap</span><span class="label label-keyword">Jekyll</span></div>
-                                            </div>
-                                        </li>
-                                        <li class="card card-nested card-skills">
-                                            <div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left">
-                                                <div class="skill-progress master"></div>
-                                            </div>
-                                            <div class="skill-info"><strong>Networks and System Administration</strong>
-                                                <div class="space-top labels"><span class="label label-keyword">TCP/IP protocols family</span><span class="label label-keyword">IEEE 802.3/11/15 (WiFi, Ethernet, Bluetooth)</span><span class="label label-keyword">STP</span>
-                                                    <span class="label label-keyword">Static and dynamic routing</span><span class="label label-keyword">DTNs</span><span class="label label-keyword">Autonomous Systems</span><span class="label label-keyword">Domain Name System</span>
-                                                    <span class="label label-keyword">Tunneling &amp; VPNs &amp; OpenVPN</span><span class="label label-keyword">IPsec</span><span class="label label-keyword">Traffic filtering with iptables-like tools</span></div>
-                                            </div>
-                                        </li>
-                                        <li class="card card-nested card-skills">
-                                            <div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left">
-                                                <div class="skill-progress master"></div>
-                                            </div>
-                                            <div class="skill-info"><strong>Cybersecurity and cryptography</strong>
-                                                <div class="space-top labels"><span class="label label-keyword">Symmetric cryptography (AES, DSA)</span><span class="label label-keyword">Public-key cryptography (RSA, ECDSA, ElGamal)</span><span class="label label-keyword">Shared-secret-schemes</span>
-                                                    <span class="label label-keyword">Public Key Infrastructure (PKI)</span><span class="label label-keyword">Blockchain technology</span><span class="label label-keyword">Bitcoin cryptocurrency</span></div>
-                                            </div>
-                                        </li>
-                                        <li class="card card-nested card-skills">
-                                            <div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left">
-                                                <div class="skill-progress master"></div>
-                                            </div>
-                                            <div class="skill-info"><strong>Programming (and markup) languages and frameworks</strong>
-                                                <div class="space-top labels"><span class="label label-keyword">Android</span><span class="label label-keyword">Assembly (Intel x86_64)</span><span class="label label-keyword">Bash / Shell</span><span class="label label-keyword">Batch/DOS</span>
-                                                    <span class="label label-keyword">C</span><span class="label label-keyword">C++</span><span class="label label-keyword">CSS3</span><span class="label label-keyword">HTML5</span><span class="label label-keyword">JavaEE (J2EE)</span>
-                                                    <span class="label label-keyword">JavaSE</span><span class="label label-keyword">JavaScript</span><span class="label label-keyword">JSON</span><span class="label label-keyword">LaTeX</span><span class="label label-keyword">NodeJS</span>
-                                                    <span class="label label-keyword">PHP</span><span class="label label-keyword">Python</span><span class="label label-keyword">Qt</span><span class="label label-keyword">SQL</span><span class="label label-keyword">XML</span></div>
-                                            </div>
-                                        </li>
-                                        <li class="card card-nested card-skills">
-                                            <div class="skill-level" data-toggle="tooltip" title="Advanced" data-placement="left">
-                                                <div class="skill-progress advanced"></div>
-                                            </div>
-                                            <div class="skill-info"><strong>Database management</strong>
-                                                <div class="space-top labels"><span class="label label-keyword">Borland BDE</span><span class="label label-keyword">MariaDB</span><span class="label label-keyword">Microsoft Access</span><span class="label label-keyword">MySQL</span>
-                                                    <span class="label label-keyword">Oracle Database 11g</span><span class="label label-keyword">SQLite</span></div>
-                                            </div>
-                                        </li>
-                                        <li class="card card-nested card-skills">
-                                            <div class="skill-level" data-toggle="tooltip" title="Advanced" data-placement="left">
-                                                <div class="skill-progress advanced"></div>
-                                            </div>
-                                            <div class="skill-info"><strong>Operating Systems</strong>
-                                                <div class="space-top labels"><span class="label label-keyword">Debian</span><span class="label label-keyword">Java</span><span class="label label-keyword">Linux-based</span><span class="label label-keyword">Microsoft Windows XP/Vista/7/8/10</span>
-                                                    <span class="label label-keyword">Microsoft Windows Server 2003/2008/2012</span><span class="label label-keyword">Ubuntu</span></div>
-                                            </div>
-                                        </li>
-                                        <li class="card card-nested card-skills">
-                                            <div class="skill-level" data-toggle="tooltip" title="Advanced" data-placement="left">
-                                                <div class="skill-progress advanced"></div>
-                                            </div>
-                                            <div class="skill-info"><strong>Software Development</strong>
-                                                <div class="space-top labels"><span class="label label-keyword">CVS: Git (GitHub and Bitbucket)</span><span class="label label-keyword">Agile methodologies</span><span class="label label-keyword">SPMP</span><span class="label label-keyword">Software Analyst</span>
-                                                    <span class="label label-keyword">Software design</span><span class="label label-keyword">Use cases diagrams</span><span class="label label-keyword">Class diagrams</span><span class="label label-keyword">Requirements specification</span>
-                                                    <span class="label label-keyword">Unit testing</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="page-break-after: always;"></div>
-                        <div class="detail" id="education">
-                            <div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div>
-                            <div class="info">
-                                <h4 class="title text-uppercase">Education</h4>
-                                <div class="content">
-                                    <ul class="list-unstyled clear-margin">
-                                        <li class="card card-nested">
-                                            <div class="content">
-                                                <p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Pursuing" data-placement="left"></i><strong>Computer Science Engineering, University Degree,&nbsp;</strong>Autonomous University of Barcelona
-                                                    (UAB.cat)
-                                                </p>
-                                                <p class="text-muted"><small>Sep, 2013 - Present</small></p><i>Global average GPA: 3.85 (8.86/10 in Europe)</i>
-                                                <div class="space-top labels"><span class="label label-keyword">Algebra and Calculus</span><span class="label label-keyword">Electricity and Electronics</span><span class="label label-keyword">Computer Architecture</span><span class="label label-keyword">Operating Systems</span>
-                                                    <span class="label label-keyword">Software Development</span><span class="label label-keyword">Database Management (RDBMS and NoSQL)</span><span class="label label-keyword">Agile Methodologies</span>
-                                                    <span class="label label-keyword">Computer Networks (Advanced)</span>
-                                                    <span class="label label-keyword">Distributed Systems</span><span class="label label-keyword">Systems Administration</span><span class="label label-keyword">Information and Security (Advanced)</span>
-                                                    <span class="label label-keyword">PKI</span>
-                                                    <span class="label label-keyword">Big Data</span><span class="label label-keyword">Web Services</span><span class="label label-keyword">DevOps</span><span class="label label-keyword">Blockchain and Bitcoin technology (Advanced)</span>
-                                                    <span class="label label-keyword">Bitcoin Payment Channels</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="card card-nested">
-                                            <div class="content">
-                                                <p class="clear-margin relative"><strong>Science and Technology, High school,&nbsp;</strong>Institut de Mollet del Vallès (iesmollet.net)</p>
-                                                <p class="text-muted"><small>Sep, 2011 - Jun, 2013</small></p><i>Global average GPA: 3.96 (9.76/10 in Europe)</i>
-                                                <div class="space-top labels"><span class="label label-keyword">Catalan</span><span class="label label-keyword">Spanish</span><span class="label label-keyword">English</span><span class="label label-keyword">Industrial technology</span>
-                                                    <span class="label label-keyword">Maths</span><span class="label label-keyword">Physics</span><span class="label label-keyword">Technical Design (and CAID)</span><span class="label label-keyword">Enterpreneurship</span>
-                                                    <span class="label label-keyword">Internship (as computer technician)</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="detail" id="awards">
-                            <div class="icon"><i class="fs-lg icon-trophy"></i><span class="mobile-title">Awards</span></div>
-                            <div class="info">
-                                <h4 class="title text-uppercase">Awards</h4>
-                                <div class="content">
-                                    <ul class="list-unstyled clear-margin">
-                                        <li class="card card-nested">
-                                            <div class="content">
-                                                <p class="clear-margin" itemprop="award"><strong>2nd place at University degree's gamification program </strong>dEIC.UAB.cat</p>
-                                                <p class="text-muted"><small>Awarded on: Jun 25, 2016</small></p>
-                                                <div class="mop-wrapper">
-                                                    <p>TOP Enginyeria is an engineering gamification program implemented in several engineering degrees that aims students to go further than classes with extra projects, competitions, challenges and games
-                                                        apart from traditional classes, awarding the best students with symbolic rewards and extra activities to motivate them in their studies and improve their rivailry to get the best performance possible
-                                                        https://bit.ly/deic-gf-davidlj95
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script>
-        $(function() {
-            var toggleFloatingMenu = function() {
-                $('.js-floating-nav').toggleClass('is-visible');
-                $('.js-floating-nav-trigger').toggleClass('is-open');
-            };
-
-            $(".background-card").css("min-height", window.screen.availHeight + "px");
-            $("[data-toggle=tooltip]").tooltip();
-            $('.js-floating-nav-trigger').on('click', function(e) {
-                e.preventDefault();
-                toggleFloatingMenu();
-            });
-            $('.js-floating-nav a').on('click', toggleFloatingMenu);
-
-            $("#remaining-profiles").on('show.bs.collapse', function() {
-                $('.js-profiles-collapse > i')
-                    .removeClass('icon-chevron-down')
-                    .addClass('icon-chevron-up');
-            });
-
-            $("#remaining-profiles").on('hidden.bs.collapse', function() {
-                $('.js-profiles-collapse > i')
-                    .removeClass('icon-chevron-up')
-                    .addClass('icon-chevron-down');
-            });
-        });
-    </script>
-    <script>
-        WebFontConfig = {
-            google: {
-                families: ['Lato:300,400,700:latin']
-            }
-        };
-        (function() {
-            var wf = document.createElement('script');
-            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-            wf.type = 'text/javascript';
-            wf.async = 'true';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(wf, s);
-        })();
-    </script>
-</body>
-
-</html>
+.floating-nav-trigger {
+  width: 50px;
+  height: 50px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+  font-size: 1.5em;
+  color: #357ebd;
+  z-index: 100;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none !important;
+}
+.floating-nav-trigger > [class^="icon-"],
+.floating-nav-trigger [class*=" icon-"],
+.floating-nav-trigger > .close-icon {
+  line-height: 50px;
+}
+.floating-nav-trigger .close-icon {
+  display: none;
+}
+.floating-nav-trigger:hover {
+  color: #1f496e;
+  background-color: #e6e6e6;
+}
+.floating-nav-trigger.is-open {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.floating-nav-trigger.is-open .close-icon {
+  display: inherit;
+}
+.floating-nav-trigger.is-open .icon-bars {
+  display: none;
+}
+.floating-nav-trigger.is-open:hover {
+  background-color: white;
+}
+.floating-nav {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
+  -o-transition: transform 0.3s, visibility 0s 0.3s;
+  transition: transform 0.3s, visibility 0s 0.3s;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  z-index: 50;
+  right: 10px;
+  bottom: 10px;
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  visibility: hidden;
+  overflow: hidden;
+}
+.floating-nav ul {
+  font-size: 1.2em;
+  margin: 0;
+}
+.floating-nav ul li {
+  border-bottom: 1px solid #eff2f6;
+}
+.floating-nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #357ebd;
+  display: block;
+}
+.floating-nav ul li a:hover {
+  color: #1f496e;
+}
+.floating-nav ul li:last-child {
+  border-bottom: 0;
+}
+.floating-nav.is-visible {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.3s, visibility 0s 0s;
+  -o-transition: transform 0.3s, visibility 0s 0s;
+  transition: transform 0.3s, visibility 0s 0s;
+  visibility: visible;
+}
+@media (max-width: 992px) {
+  .profile-card-wrapper {
+    position: relative;
+  }
+}
+.profile-card-wrapper .profile-card {
+  padding: 10px;
+}
+.profile-pic {
+  padding: 20px 0;
+}
+@media (max-width: 992px) {
+  .profile-pic {
+    padding: 10px 0;
+  }
+}
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 992px) {
+  .name {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-details {
+    text-align: center;
+  }
+}
+.contact-details .detail {
+  display: table;
+  padding: 10px 0;
+}
+.contact-details .detail .icon {
+  padding: 0 10px;
+  color: #707070;
+}
+@media (max-width: 992px) {
+  .contact-details .detail .icon {
+    padding: 0 5px 0 0;
+  }
+}
+.contact-details .detail .info {
+  font-size: 0.8em;
+}
+.contact-details .detail .icon,
+.contact-details .detail .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .contact-details .detail {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+  }
+  .contact-details .detail .icon,
+  .contact-details .detail .info {
+    display: inline-block;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .contact-details .detail {
+    float: left;
+    width: 25%;
+  }
+}
+.social-links {
+  line-height: 2.5;
+}
+.social-link {
+  margin-left: 5px;
+  min-width: 35px;
+  display: inline-block;
+}
+.social-link:first-child {
+  margin-left: 0;
+}
+.social-link:hover {
+  text-decoration: none;
+}
+.link-github {
+  color: #454545;
+}
+.link-github:hover,
+.link-github:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.link-twitter {
+  color: #33ccff;
+}
+.link-twitter:hover,
+.link-twitter:focus {
+  text-decoration: none;
+  color: #00bfff;
+}
+.link-blog {
+  color: #f36f24;
+}
+.link-blog:hover,
+.link-blog:focus {
+  text-decoration: none;
+  color: #d8560c;
+}
+.link-linkedin {
+  color: #007bb6;
+}
+.link-linkedin:hover,
+.link-linkedin:focus {
+  text-decoration: none;
+  color: #005983;
+}
+.link-skype {
+  color: #12A5F4;
+}
+.link-skype:hover,
+.link-skype:focus {
+  text-decoration: none;
+  color: #0986ca;
+}
+.link-instagram {
+  color: #e4405f;
+}
+.link-instagram:hover,
+.link-instagram:focus {
+  text-decoration: none;
+  color: #d31e40;
+}
+.link-stackoverflow {
+  color: #8e8e92;
+}
+.link-stackoverflow:hover,
+.link-stackoverflow:focus {
+  text-decoration: none;
+  color: #747479;
+}
+.link-stackexchange {
+  color: #62b0df;
+}
+.link-stackexchange:hover,
+.link-stackexchange:focus {
+  text-decoration: none;
+  color: #389bd6;
+}
+.link-lastfm {
+  color: #d12127;
+}
+.link-lastfm:hover,
+.link-lastfm:focus {
+  text-decoration: none;
+  color: #a51a1f;
+}
+.link-soundcloud {
+  color: #e8822d;
+}
+.link-soundcloud:hover,
+.link-soundcloud:focus {
+  text-decoration: none;
+  color: #cc6916;
+}
+.link-googleplus {
+  color: #dd4b39;
+}
+.link-googleplus:hover,
+.link-googleplus:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-youtube {
+  color: #dd4b39;
+}
+.link-youtube:hover,
+.link-youtube:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-pinterest {
+  color: #bd091f;
+}
+.link-pinterest:hover,
+.link-pinterest:focus {
+  text-decoration: none;
+  color: #8c0717;
+}
+.link-gratipay {
+  color: #630;
+}
+.link-gratipay:hover,
+.link-gratipay:focus {
+  text-decoration: none;
+  color: #331a00;
+}
+.link-vimeo {
+  color: #17b3e8;
+}
+.link-vimeo:hover,
+.link-vimeo:focus {
+  text-decoration: none;
+  color: #128fba;
+}
+.link-behance {
+  color: #2c98cf;
+}
+.link-behance:hover,
+.link-behance:focus {
+  text-decoration: none;
+  color: #2379a5;
+}
+.link-codepen {
+  color: #1c1c1c;
+}
+.link-codepen:hover,
+.link-codepen:focus {
+  text-decoration: none;
+  color: #020202;
+}
+.link-foursquare {
+  color: #fa4778;
+}
+.link-foursquare:hover,
+.link-foursquare:focus {
+  text-decoration: none;
+  color: #f91554;
+}
+.link-reddit {
+  color: #545454;
+}
+.link-reddit:hover,
+.link-reddit:focus {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.link-spotify {
+  color: #acd200;
+}
+.link-spotify:hover,
+.link-spotify:focus {
+  text-decoration: none;
+  color: #829f00;
+}
+.link-tumblr {
+  color: #2d4661;
+}
+.link-tumblr:hover,
+.link-tumblr:focus {
+  text-decoration: none;
+  color: #1d2d3e;
+}
+.link-dribbble {
+  color: #ce366f;
+}
+.link-dribbble:hover,
+.link-dribbble:focus {
+  text-decoration: none;
+  color: #a82959;
+}
+.link-facebook {
+  color: #4b6daa;
+}
+.link-facebook:hover,
+.link-facebook:focus {
+  text-decoration: none;
+  color: #3b5687;
+}
+.link-angellist {
+  color: black;
+}
+.link-angellist:hover,
+.link-angellist:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-bitbucket {
+  color: #205081;
+}
+.link-bitbucket:hover,
+.link-bitbucket:focus {
+  text-decoration: none;
+  color: #163758;
+}
+.link-hackernews {
+  color: #ff6600;
+}
+.link-hackernews:hover,
+.link-hackernews:focus {
+  text-decoration: none;
+  color: #cc5200;
+}
+.link-exercism {
+  color: #d81d4e;
+}
+.link-exercism:hover,
+.link-exercism:focus {
+  text-decoration: none;
+  color: #ab173e;
+}
+.link-blogger {
+  color: #FF9234;
+}
+.link-blogger:hover,
+.link-blogger:focus {
+  text-decoration: none;
+  color: #ff7701;
+}
+.link-medium {
+  color: #00AB6C;
+}
+.link-medium:hover,
+.link-medium:focus {
+  text-decoration: none;
+  color: #00784c;
+}
+.link-flickr {
+  color: black;
+}
+.link-flickr:hover,
+.link-flickr:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-telegram {
+  color: #3BABDD;
+}
+.link-telegram:hover,
+.link-telegram:focus {
+  text-decoration: none;
+  color: #2291c3;
+}
+.card-skills {
+  position: relative;
+}
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 15px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: inherit;
+  }
+}
+.icon-meetup .path2:before {
+  margin-left: 0;
+}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+  .profile-card {
+    text-align: center;
+  }
+  .profile-pic {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .profile-pic img {
+    border-radius: 0;
+  }
+  .name-and-profession {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0;
+  }
+  .floating-nav,
+  .floating-nav-trigger {
+    display: none;
+  }
+  .pagebreak {
+    page-break-before: always;
+  }
+}
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#awards"><i class="mr-10 icon-trophy"></i>Awards</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="David Lozano Jarque" src="https://s.gravatar.com/avatar/5b2f04a85edd17fa5944918c142c60c1?s=100&amp;r=pg&amp;d=mm" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>David Lozano Jarque</b></h3><h5 class="text-muted" itemprop="jobTitle">Computer Science Engineer. Passionate Systems Administrator, Full-stack software developer and Cryptography and secure systems fan</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Mollet del Vallès, Barcelona, ES</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">+34 644 449 360</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:mail@davidlj95.com" itemprop="email">mail@davidlj95.com</a></span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://www.davidlj95.com" target="_blank">https://www.davidlj95.com</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">Spanish, Catalan, English (fluid)</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-twitter icon-twitter" href="//twitter.com/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on Twitter"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on LinkedIn"></a><a class="fs-2x social-link link-github icon-github" href="//github.com/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on GitHub"></a><a class="fs-2x social-link link-bitbucket icon-bitbucket" href="//bitbucket.org/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on BitBucket"></a><a class="fs-2x social-link link-stackoverflow icon-stackoverflow" href="//stackoverflow.com/users/3263250/davidlj95" target="_blank" data-toggle="tooltip" title="David Lozano Jarque on StackOverflow"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>Technology and specially computer science has always been a diversion since a was a teenager at highschool. Since I discovered computer science, I decided to turn my hobby into my profession, and started learning computer science on my own. After that, I decided to study a computer science engineering degree at UAB.cat and have been launching several projects as a freelance since then. Not just to provide IT services to businesses but also developing innovative projects on my own with some colleagues to try to help evolve our world into the future</p>
+</div></div></div></div><div style="page-break-after: always"></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Developer (as freelance in an internship)</strong>,&nbsp;<a href="http://www.seat.com" target="_blank">SEAT S.A.</a></p><p class="text-muted"><small><span class="space-right">Mar, 2017 - Jun, 2017</span><span><i class="icon-clock mr-5"></i>3 months</span></small></p><div class="mop-wrapper space-bottom"><p>Integration and adaptation of the IBC Biomechanics software with SEAT IT Systems for its internal biomechanical laboratory in the CARS center within the Martorell headquarters</p>
+</div><ul><li class="mop-wrapper"><p>Python 3.6 (using Anaconda)</p>
+</li><li class="mop-wrapper"><p>GUI(s) using PyQt4/5</p>
+</li><li class="mop-wrapper"><p>Database managment using ORM frameworks</p>
+</li><li class="mop-wrapper"><p>MariaDB RDBMS management</p>
+</li><li class="mop-wrapper"><p>SAP integration using APIs</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Systems Administrator and IT consultant (as outsourced freelance)</strong>,&nbsp;<a href="http://meditrauma.com" target="_blank">Meditrauma S.L.</a></p><p class="text-muted"><small><span class="space-right">Jan, 2015 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Outsourced IT Systems and Infrastructure accountable of the three company headquarters, performing typical systems administration tasks and IT consultancy</p>
+</div><ul><li class="mop-wrapper"><p>LAN and WLAN TCP/IP networks installation and management (including cibersecurity tasks such as traffic filtering)</p>
+</li><li class="mop-wrapper"><p>Servers installation and maintenance using Ubuntu and Microsoft Windows Server 2003/2012</p>
+</li><li class="mop-wrapper"><p>Database setup and maintenance using Borland BDE, Microsoft Access and Microsoft SQL Server 7/2008</p>
+</li><li class="mop-wrapper"><p>Network file sharing installation and maintenance (with permission management) using Samba protocol</p>
+</li><li class="mop-wrapper"><p>Network printer spool services installation and maintenance using Canon, HP, Epson printers</p>
+</li><li class="mop-wrapper"><p>Workstation installation and maintenance using Microsoft Windows 7/8/10 (also migrated old ones from XP) and setting up enterprise sofware including ofimatics and internal ERP customized software(s)</p>
+</li><li class="mop-wrapper"><p>Installation and maintenance of DICOM networks and services</p>
+</li><li class="mop-wrapper"><p>Installation and maintenance of point-of-sale devices</p>
+</li><li class="mop-wrapper"><p>Installation and maintenance of medical equipment hardware and services such as X-Ray machines and ECGs</p>
+</li><li class="mop-wrapper"><p>Installation and maintenance of laboral risk prevention devices like audiometers</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Software Developer and IT consultant (as freelance)</strong>,&nbsp;<a href="http://ibc.bio" target="_blank">IBC Biomechanics</a></p><p class="text-muted"><small><span class="space-right">Sep, 2014 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Design and development of a customized clinical reports generator software application based on Microsoft Word user-designed templates and using data exported from a collection of third-party applications that capture and analyze data from a patient using optical-tracking camera devices, EMG devices, foot insoles, dynamometers and inertial sensors</p>
+</div><ul><li class="mop-wrapper"><p>Python 2.7 / 3.6 (using Anaconda framework and python-docx library)</p>
+</li><li class="mop-wrapper"><p>JavaSE 8 (using PyBluez to handle Bluetooth connections)</p>
+</li><li class="mop-wrapper"><p>GUI(s) using PyQt4/5</p>
+</li></ul></div></li></ul></div></div><div style="page-break-after: always"></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>Cybersecurity and cryptography</strong><div class="space-top labels"><span class="label label-keyword">Symmetric cryptography (AES, DSA)</span><span class="label label-keyword">Public-key cryptography (RSA, ECDSA, ElGamal)</span><span class="label label-keyword">Shared-secret-schemes</span><span class="label label-keyword">Public Key Infrastructure (PKI)</span><span class="label label-keyword">Blockchain technology</span><span class="label label-keyword">Bitcoin cryptocurrency</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>Networks and System Administration</strong><div class="space-top labels"><span class="label label-keyword">TCP/IP protocols family</span><span class="label label-keyword">IEEE 802.3/11/15 (WiFi, Ethernet, Bluetooth)</span><span class="label label-keyword">STP</span><span class="label label-keyword">Static and dynamic routing</span><span class="label label-keyword">DTNs</span><span class="label label-keyword">Autonomous Systems</span><span class="label label-keyword">Domain Name System</span><span class="label label-keyword">Tunneling &amp; VPNs &amp; OpenVPN</span><span class="label label-keyword">IPsec</span><span class="label label-keyword">Traffic filtering with iptables-like tools</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>Web Development</strong><div class="space-top labels"><span class="label label-keyword">HTML5</span><span class="label label-keyword">CSS3</span><span class="label label-keyword">Javascript</span><span class="label label-keyword">AJAX</span><span class="label label-keyword">PHP</span><span class="label label-keyword">Responsive design</span><span class="label label-keyword">Bootstrap</span><span class="label label-keyword">Jekyll</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>Programming (and markup) languages and frameworks</strong><div class="space-top labels"><span class="label label-keyword">Android</span><span class="label label-keyword">Assembly (Intel x86_64)</span><span class="label label-keyword">Bash / Shell</span><span class="label label-keyword">Batch/DOS</span><span class="label label-keyword">C</span><span class="label label-keyword">C++</span><span class="label label-keyword">CSS3</span><span class="label label-keyword">HTML5</span><span class="label label-keyword">JavaEE (J2EE)</span><span class="label label-keyword">JavaSE</span><span class="label label-keyword">JavaScript</span><span class="label label-keyword">JSON</span><span class="label label-keyword">LaTeX</span><span class="label label-keyword">Markdown</span><span class="label label-keyword">NodeJS</span><span class="label label-keyword">PHP</span><span class="label label-keyword">Python</span><span class="label label-keyword">Qt</span><span class="label label-keyword">SQL</span><span class="label label-keyword">XML</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Advanced" data-placement="left"><div class="skill-progress advanced"></div></div><div class="skill-info"><strong>Database management</strong><div class="space-top labels"><span class="label label-keyword">Borland BDE</span><span class="label label-keyword">MariaDB</span><span class="label label-keyword">Microsoft Access</span><span class="label label-keyword">MySQL</span><span class="label label-keyword">Oracle Database 11g</span><span class="label label-keyword">SQLite</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Advanced" data-placement="left"><div class="skill-progress advanced"></div></div><div class="skill-info"><strong>Operating Systems</strong><div class="space-top labels"><span class="label label-keyword">Debian</span><span class="label label-keyword">Java</span><span class="label label-keyword">Linux-based</span><span class="label label-keyword">Microsoft Windows XP/Vista/7/8/10</span><span class="label label-keyword">Microsoft Windows Server 2003/2008/2012</span><span class="label label-keyword">Ubuntu</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Advanced" data-placement="left"><div class="skill-progress advanced"></div></div><div class="skill-info"><strong>Software Development</strong><div class="space-top labels"><span class="label label-keyword">CVS: Git, Git-flow (+GitHub and Bitbucket)</span><span class="label label-keyword">Agile methodologies</span><span class="label label-keyword">SPMP</span><span class="label label-keyword">Software Analyst</span><span class="label label-keyword">Software design</span><span class="label label-keyword">Use cases diagrams</span><span class="label label-keyword">Class diagrams</span><span class="label label-keyword">Requirements specification</span><span class="label label-keyword">Unit testing</span></div></div></li></ul></div></div></div><div style="page-break-after: always"></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Computer Science Engineering, University Degree,&nbsp;</strong>Autonomous University of Barcelona (UAB.cat)</p><p class="text-muted"><small>Sep, 2013 - Jun, 2017</small></p><i>Global average GPA: 3.85 (8.86/10 in Europe)</i><div class="space-top labels"><span class="label label-keyword">Algebra and Calculus</span><span class="label label-keyword">Electricity and Electronics</span><span class="label label-keyword">Computer Architecture</span><span class="label label-keyword">Operating Systems</span><span class="label label-keyword">Software Development</span><span class="label label-keyword">Database Management (RDBMS and NoSQL)</span><span class="label label-keyword">Agile Methodologies</span><span class="label label-keyword">Computer Networks (Advanced)</span><span class="label label-keyword">Distributed Systems</span><span class="label label-keyword">Systems Administration</span><span class="label label-keyword">Information and Security (Advanced)</span><span class="label label-keyword">PKI</span><span class="label label-keyword">Big Data</span><span class="label label-keyword">Web Services</span><span class="label label-keyword">DevOps</span><span class="label label-keyword">Blockchain technology (Advanced)</span><span class="label label-keyword">Bitcoin development (Advanced)</span></div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Science and Technology, High school,&nbsp;</strong>Institut de Mollet del Vallès (iesmollet.net)</p><p class="text-muted"><small>Sep, 2011 - Jun, 2013</small></p><i>Global average GPA: 3.96 (9.76/10 in Europe)</i><div class="space-top labels"><span class="label label-keyword">Catalan</span><span class="label label-keyword">Spanish</span><span class="label label-keyword">English</span><span class="label label-keyword">Industrial technology</span><span class="label label-keyword">Maths</span><span class="label label-keyword">Physics</span><span class="label label-keyword">Technical Design (and CAID)</span><span class="label label-keyword">Enterpreneurship</span><span class="label label-keyword">Internship (as computer technician)</span></div></div></li></ul></div></div></div><div class="detail" id="awards"><div class="icon"><i class="fs-lg icon-trophy"></i><span class="mobile-title">Awards</span></div><div class="info"><h4 class="title text-uppercase">Awards</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin" itemprop="award"><strong>2nd place at University degree's gamification program </strong>dEIC.UAB.cat</p><p class="text-muted"><small>Awarded on: Jun 25, 2016</small></p><div class="mop-wrapper"><p>TOP Enginyeria is an engineering gamification program implemented in several engineering degrees that aims students to go further than classes with extra projects,  competitions, challenges and games apart from traditional classes, awarding the best students with symbolic rewards and extra activities to motivate them in their studies and improve their rivailry to get the best performance possible https://bit.ly/deic-gf-davidlj95</p>
+</div></div></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
+  var toggleFloatingMenu = function() {
+    $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+    $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+  };
+
+  $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+  $( "[data-toggle=tooltip]" ).tooltip();
+  $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+    e.preventDefault();
+    toggleFloatingMenu();
+  });
+  $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
+
+  $("#remaining-profiles").on('show.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-down' )
+      .addClass( 'icon-chevron-up' );
+  });
+
+  $("#remaining-profiles").on('hidden.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-up' )
+      .addClass( 'icon-chevron-down' );
+  });
+});
+</script><script>WebFontConfig = {
+  google: { families: [ 'Lato:300,400,700:latin' ] }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();</script></body></html>
