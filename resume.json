@@ -6,7 +6,7 @@
         "email": "mail@davidlj95.com",
         "phone": "+34 644 449 360",
         "website": "https://www.davidlj95.com",
-        "summary": "Technology and specially computer science has always been a diversion since a was a teenager at highschool. Since I discovered computer science, I decided to turn my hobby into my profession, and started learning computer science on my own. After that, I decided to study a computer science engineering degree at UAB.cat and have been launching several projects as a freelance since then. Not just to provide IT services to businesses but also developing innovative projects on my own with some colleagues to try to help evolve our world into the future",
+        "summary": "Technology and specially computer science has always been a diversion since a was a teenager at highschool. Since I discovered computer science, I wanted to turn my hobby into my profession, and started learning computer science on my own. After that, I decided to study a computer science engineering degree at UAB.cat and have been launching several projects as a freelance since then. Not just to provide IT services to businesses but also developing innovative projects on my own with some colleagues to try to help evolve our world into the future. Currently, I offer those services as a freelance and spend my free time researching Bitcoin and blockchain related technologies. Moreover, I'm also studying a cibersecurity master's degree at UOC.edu to enhance my knowledge in IT security.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -90,18 +90,33 @@
         "startDate": "2014-09-15",
         "summary": "Design and development of a customized clinical reports generator software application based on Microsoft Word user-designed templates and using data exported from a collection of third-party applications that capture and analyze data from a patient using optical-tracking camera devices, EMG devices, foot insoles, dynamometers and inertial sensors",
         "highlights": [
-            "Python 2.7 / 3.6 (using Anaconda framework and python-docx library)",
+            "Python 2.7 / 3.6 (using Anaconda framework)",
             "JavaSE 8 (using PyBluez to handle Bluetooth connections)",
-            "GUI(s) using PyQt4/5"
+            "GUI(s) using PyQt4/5",
+            "Database applications using SQLAlchemy"
         ]
     }],
     "education": [{
+            "institution": "Open University of Barcelona (UOC.edu)",
+            "area": "Computer Science Engineering: IT Security",
+            "studyType": "Master's degree",
+            "startDate": "2017-09-20",
+    	    "endDate": "",
+            "gpa": "Global average GPA: 3.38 (8.14/10 in Europe)",
+            "courses": [
+                "Digital Identity",
+                "Legislation and Regulation",
+                "Security vulnerabilities",
+                "Networks' security",
+                "Databases' security"
+            ]
+    }, {
         "institution": "Autonomous University of Barcelona (UAB.cat)",
         "area": "Computer Science Engineering",
-        "studyType": "University Degree",
+        "studyType": "University degree",
         "startDate": "2013-09-13",
 	"endDate": "2017-06-20",
-        "gpa": "Global average GPA: 3.85 (8.86/10 in Europe)",
+        "gpa": "Cum laude, Global average GPA: 3.85 (8.86/10 in Europe)",
         "courses": [
             "Algebra and Calculus",
             "Electricity and Electronics",
@@ -127,7 +142,7 @@
         "studyType": "High school",
         "startDate": "2011-09-13",
         "endDate": "2013-06-01",
-        "gpa": "Global average GPA: 3.96 (9.76/10 in Europe)",
+        "gpa": "Cum laude, Global average GPA: 3.96 (9.76/10 in Europe)",
         "courses": [
             "Catalan", "Spanish", "English", "Industrial technology", "Maths", "Physics", "Technical Design (and CAID)", "Enterpreneurship", "Internship (as computer technician)"
         ]
@@ -149,7 +164,7 @@
                 "Shared-secret-schemes",
                 "Public Key Infrastructure (PKI)",
                 "Blockchain technology",
-                "Bitcoin cryptocurrency"
+                "Bitcoin cryptocurrency (technical level)"
             ]
         },
         {
@@ -191,7 +206,7 @@
             "name": "Database management",
             "level": "Advanced",
             "keywords": [
-                "Borland BDE", "MariaDB", "Microsoft Access", "MySQL", "Oracle Database 11g", "SQLite"
+                "Borland BDE", "MariaDB", "Microsoft Access", "MySQL", "Oracle Database 11g", "SQLite", "SQLAlchemy"
             ]
         },
         {
