@@ -1,240 +1,301 @@
 {
-    "basics": {
-        "name": "David Lozano Jarque",
-        "label": "Computer Science Engineer. Passionate Systems Administrator, Full-stack software developer and Cryptography and secure systems fan",
-        "image": "https://www.davidlj95.com/assets/img/profile.png",
-        "email": "mail@davidlj95.com",
-        "phone": "+34 644 449 360",
-        "website": "https://www.davidlj95.com",
-        "summary": "Technology and specially computer science has always been a diversion since a was a teenager at highschool. Since I discovered computer science, I wanted to turn my hobby into my profession, and started learning computer science on my own. After that, I decided to study a computer science engineering degree at UAB.cat and have been launching several projects as a freelance since then. Not just to provide IT services to businesses but also developing innovative projects on my own with some colleagues to try to help evolve our world into the future. Currently, I offer those services as a freelance and spend my free time researching Bitcoin and blockchain related technologies. Moreover, I'm also studying a cibersecurity master's degree at UOC.edu to enhance my knowledge in IT security.",
-        "location": {
-            "address": "",
-            "postalCode": "",
-            "city": "Mollet del Vallès",
-            "countryCode": "ES",
-            "region": "Barcelona"
-        },
-        "profiles": [{
-                "network": "Twitter",
-                "username": "davidlj95",
-                "url": ""
-            },
-            {
-                "network": "LinkedIn",
-                "username": "davidlj95",
-                "url": "https://www.linkedin.com/in/davidlj95"
-            },
-            {
-                "network": "GitHub",
-                "username": "davidlj95"
-            },
-            {
-                "network": "BitBucket",
-                "username": "davidlj95"
-            },
-            {
-                "network": "StackOverflow",
-                "username": "3263250/davidlj95"
-            }
-        ]
+  "basics": {
+    "name": "David Lozano Jarque",
+    "label": "Full stack software engineer: from scratch to production",
+    "image": "https://www.davidlj95.com/assets/img/profile.png",
+    "email": "mail@davidlj95.com",
+    "phone": "+34 644 449 360",
+    "url": "https://davidlj95.com",
+    "summary": "Turning ideas into code is my passion: I've been developing software since I was in elementary school. First as a hobby, then as a freelance, and eventually in a company. Overall, my mission is to provide valuable contributions to great projects that can make a difference in their users' lifes",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Mollet del Vallès",
+      "countryCode": "ES",
+      "region": ""
     },
-    "languages": [{
-            "language": "Spanish",
-            "fluency": "Native"
-        },
-        {
-            "language": "Catalan",
-            "fluency": "Native"
-        },
-        {
-            "language": "English",
-            "fluency": "Advanced"
-        }
-    ],
-    "work": [{
-        "company": "SEAT S.A.",
-        "position": "Software Developer (as freelance in an internship)",
-        "website": "http://www.seat.com",
-        "startDate": "2017-03-13",
-	"endDate": "2017-06-19",
-        "summary": "Integration and adaptation of the IBC Biomechanics software with SEAT IT Systems for its internal biomechanical laboratory in the CARS center within the Martorell headquarters",
-        "highlights": [
-            "Python 3.6 (using Anaconda)",
-            "GUI(s) using PyQt4/5",
-            "Database managment using ORM frameworks",
-            "MariaDB RDBMS management",
-            "SAP integration using APIs"
-        ]
-    }, {
-        "company": "Meditrauma S.L.",
-        "position": "Systems Administrator and IT consultant (as outsourced freelance)",
-        "website": "http://meditrauma.com",
-        "startDate": "2015-01-15",
-        "summary": "Outsourced IT Systems and Infrastructure accountable of the three company headquarters, performing typical systems administration tasks and IT consultancy",
-        "highlights": [
-            "LAN and WLAN TCP/IP networks installation and management (including cibersecurity tasks such as traffic filtering)",
-            "Servers installation and maintenance using Ubuntu and Microsoft Windows Server 2003/2012",
-            "Database setup and maintenance using Borland BDE, Microsoft Access and Microsoft SQL Server 7/2008",
-            "Network file sharing installation and maintenance (with permission management) using Samba protocol",
-            "Network printer spool services installation and maintenance using Canon, HP, Epson printers",
-            "Workstation installation and maintenance using Microsoft Windows 7/8/10 (also migrated old ones from XP) and setting up enterprise sofware including ofimatics and internal ERP customized software(s)",
-            "Installation and maintenance of DICOM networks and services",
-            "Installation and maintenance of point-of-sale devices",
-            "Installation and maintenance of medical equipment hardware and services such as X-Ray machines and ECGs",
-            "Installation and maintenance of laboral risk prevention devices like audiometers"
-        ]
-    }, {
-        "company": "IBC Biomechanics",
-        "position": "Software Developer and IT consultant (as freelance)",
-        "website": "http://ibc.bio",
-        "startDate": "2014-09-15",
-        "summary": "Design and development of a customized clinical reports generator software application based on Microsoft Word user-designed templates and using data exported from a collection of third-party applications that capture and analyze data from a patient using optical-tracking camera devices, EMG devices, foot insoles, dynamometers and inertial sensors",
-        "highlights": [
-            "Python 2.7 / 3.6 (using Anaconda framework)",
-            "JavaSE 8 (using PyBluez to handle Bluetooth connections)",
-            "GUI(s) using PyQt4/5",
-            "Database applications using SQLAlchemy"
-        ]
-    }],
-    "education": [{
-            "institution": "Open University of Barcelona (UOC.edu)",
-            "area": "Computer Science Engineering: IT Security",
-            "studyType": "Master's degree",
-            "startDate": "2017-09-20",
-    	    "endDate": "",
-            "gpa": "Global average GPA: 3.38 (8.14/10 in Europe)",
-            "courses": [
-                "Digital Identity",
-                "Legislation and Regulation",
-                "Security vulnerabilities",
-                "Networks' security",
-                "Databases' security"
-            ]
-    }, {
-        "institution": "Autonomous University of Barcelona (UAB.cat)",
-        "area": "Computer Science Engineering",
-        "studyType": "University degree",
-        "startDate": "2013-09-13",
-	"endDate": "2017-06-20",
-        "gpa": "Cum laude, Global average GPA: 3.85 (8.86/10 in Europe)",
-        "courses": [
-            "Algebra and Calculus",
-            "Electricity and Electronics",
-            "Computer Architecture",
-            "Operating Systems",
-            "Software Development",
-            "Database Management (RDBMS and NoSQL)",
-            "Agile Methodologies",
-            "Computer Networks (Advanced)",
-            "Distributed Systems",
-            "Systems Administration",
-            "Information and Security (Advanced)",
-            "PKI",
-            "Big Data",
-            "Web Services",
-            "DevOps",
-            "Blockchain technology (Advanced)",
-            "Bitcoin development (Advanced)"
-        ]
-    }, {
-        "institution": "Institut de Mollet del Vallès (iesmollet.net)",
-        "area": "Science and Technology",
-        "studyType": "High school",
-        "startDate": "2011-09-13",
-        "endDate": "2013-06-01",
-        "gpa": "Cum laude, Global average GPA: 3.96 (9.76/10 in Europe)",
-        "courses": [
-            "Catalan", "Spanish", "English", "Industrial technology", "Maths", "Physics", "Technical Design (and CAID)", "Enterpreneurship", "Internship (as computer technician)"
-        ]
-
-    }],
-    "awards": [{
-        "title": "2nd place at University degree's gamification program",
-        "date": "2016-06-25",
-        "awarder": "dEIC.UAB.cat",
-        "summary": "TOP Enginyeria is an engineering gamification program implemented in several engineering degrees that aims students to go further than classes with extra projects,  competitions, challenges and games apart from traditional classes, awarding the best students with symbolic rewards and extra activities to motivate them in their studies and improve their rivailry to get the best performance possible https://bit.ly/deic-gf-davidlj95"
-    }],
-    "skills": [
-        {
-            "name": "Cybersecurity and cryptography",
-            "level": "Master",
-            "keywords": [
-                "Symmetric cryptography (AES, DSA)",
-                "Public-key cryptography (RSA, ECDSA, ElGamal)",
-                "Shared-secret-schemes",
-                "Public Key Infrastructure (PKI)",
-                "Blockchain technology",
-                "Bitcoin cryptocurrency (technical level)"
-            ]
-        },
-        {
-            "name": "Networks and System Administration",
-            "level": "Master",
-            "keywords": [
-                "TCP/IP protocols family",
-                "IEEE 802.3/11/15 (WiFi, Ethernet, Bluetooth)", "STP",
-                "Static and dynamic routing",
-                "DTNs",
-                "Autonomous Systems",
-                "Domain Name System",
-                "Tunneling & VPNs & OpenVPN",
-                "IPsec",
-                "Traffic filtering with iptables-like tools"
-            ]
-        },
-        {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": [
-                "HTML5",
-                "CSS3",
-                "Javascript", "AJAX",
-                "PHP",
-                "Responsive design",
-                "Bootstrap",
-                "Jekyll"
-            ]
-        },
-        {
-            "name": "Programming (and markup) languages and frameworks",
-            "level": "Master",
-            "keywords": [
-                "Android", "Assembly (Intel x86_64)", "Bash / Shell", "Batch/DOS", "C", "C++", "CSS3", "HTML5", "JavaEE (J2EE)", "JavaSE", "JavaScript", "JSON", "LaTeX", "Markdown", "NodeJS", "PHP", "Python", "Qt", "SQL", "XML"
-            ]
-        },
-        {
-            "name": "Database management",
-            "level": "Advanced",
-            "keywords": [
-                "Borland BDE", "MariaDB", "Microsoft Access", "MySQL", "Oracle Database 11g", "SQLite", "SQLAlchemy"
-            ]
-        },
-        {
-            "name": "Operating Systems",
-            "level": "Advanced",
-            "keywords": [
-                "Debian",
-                "Java",
-                "Linux-based",
-                "Microsoft Windows XP/Vista/7/8/10",
-                "Microsoft Windows Server 2003/2008/2012",
-                "Ubuntu"
-            ]
-        },
-        {
-            "name": "Software Development",
-            "level": "Advanced",
-            "keywords": [
-                "CVS: Git, Git-flow (+GitHub and Bitbucket)",
-                "Agile methodologies",
-                "SPMP",
-                "Software Analyst",
-                "Software design",
-                "Use cases diagrams",
-                "Class diagrams",
-                "Requirements specification",
-                "Unit testing"
-            ]
-        }
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "davidlj95",
+        "url": "https://github.com/davidlj95"
+      },
+      {
+        "network": "Linkedin",
+        "username": "davidlj95",
+        "url": "https://www.linkedin.com/in/davidlj95"
+      },
+      {
+        "network": "Twitter",
+        "username": "davidlj95",
+        "url": "https://twitter.com/davidlj95"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "davidlj95",
+        "url": "https://stackoverflow.com/users/3263250/davidlj95"
+      }
     ]
+  },
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native",
+      "comment": "native"
+    },
+    {
+      "language": "Catalan",
+      "fluency": "Native",
+      "comment": "native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced",
+      "comment": "B2 certified"
+    }
+  ],
+  "work": [
+    {
+      "company": "BTC Assessors",
+      "website": "https://btcassessors.com",
+      "image": "https://imgur.com/Jg7ADq1.png",
+      "position": "Full stack software engineer & DLT consultant",
+      "startDate": "2018-06-01",
+      "summary": "Lead software engineer: digitally verifiable credentials, PoA blockchain networks deployment software and a Bitcoin cryptocurrency library. Blockchain and DLT consultant.",
+      "highlights": [
+        "Web backend RESTful APIs with OpenAPI, Spring Boot, Kotlin and Python",
+        "Web frontend Material Design PWA with Angular 7 & 8, Polymer, Redux, Typescript, Javascript, SCSS and HTML5",
+        "DevOps with Docker, GitLab CI/CD, TravisCI and Heroku",
+        "Linux-based systems administration (Arch Linux, Debian, Ubuntu)",
+        "Libraries for data verification in Typescript, Javascript and Kotlin",
+        "Library for Bitcoin cryptocurrency's scripting in Python",
+        "Software project management: 4+1 architecture, Domain driven design (DDD), Agile methodologies"
+      ]
+    },
+    {
+      "company": "SEAT",
+      "website": "https://www.seat.com",
+      "image": "https://imgur.com/hLnTEwc.png",
+      "position": "Software Developer (freelance in internship)",
+      "startDate": "2017-03-13",
+      "endDate": "2017-06-19",
+      "summary": "Integration and adaptation of the IBC Biomechanics software within SEAT IT Systems for its internal biomechanical laboratory in the CARS center in the Martorell headquarters",
+      "highlights": [
+        "Python 3.6 (using Anaconda)",
+        "Desktop GUI using PyQt4/5",
+        "SQLAlchemy",
+        "MariaDB"
+      ]
+    },
+    {
+      "company": "Meditrauma",
+      "website": "http://meditrauma.com",
+      "image": "https://imgur.com/oOXUFro.png",
+      "position": "IT Manager (as outsourced freelance)",
+      "startDate": "2015-01-15",
+      "endDate": "2018-06-01",
+      "summary": "Outsourced IT Systems and infrastructure accountable of the three company headquarters, performing typical systems administration tasks and IT consultancy",
+      "highlights": [
+        "LAN and WLAN TCP/IP networks installation and management (including cibersecurity tasks such as traffic filtering)",
+        "Servers installation and maintenance using Ubuntu and Microsoft Windows Server 2003/2012",
+        "Database setup and maintenance using Borland BDE, Microsoft Access and Microsoft SQL Server 7/2008",
+        "Network file sharing installation and maintenance (with permission management) using Samba protocol",
+        "Network printer spool services installation and maintenance using Canon, HP, Epson printers",
+        "Workstation installation and maintenance using Microsoft Windows 7/8/10 (also migrated old ones from XP) and setting up enterprise sofware including ofimatics and internal ERP customized software(s)",
+        "Installation and maintenance of DICOM networks and services",
+        "Installation and maintenance of point-of-sale devices",
+        "Installation and maintenance of medical equipment hardware and services such as X-Ray machines and ECGs",
+        "Installation and maintenance of laboral risk prevention devices like audiometers"
+      ]
+    },
+    {
+      "company": "IBC Biomechanics",
+      "website": "https://ibc.bio",
+      "image": "https://imgur.com/WtijWxv.png",
+      "position": "Software Engineer & IT Manager (as freelance)",
+      "startDate": "2014-09-15",
+      "endDate": "2018-06-01",
+      "summary": "Developed a biomechanics report generator app that takes user-designed templates and merges data from a collection of third-party applications to generate reports",
+      "highlights": [
+        "Python 2.7 / 3.6 (using Anaconda framework)",
+        "JavaSE 8 (using PyBluez to handle Bluetooth connections)",
+        "Desktop GUI(s) using PyQt4/5",
+        "Database applications using SQLAlchemy"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitat Oberta de Catalunya",
+      "shortName": "UOC",
+      "image": "https://imgur.com/SNrdeRw.png",
+      "website": "https://uoc.edu",
+      "studyType": "Master's degree",
+      "area": "MISTIC (Cibersecurity)",
+      "startDate": "2017-09-20",
+      "endDate": "2018-09-20",
+      "gpa": "Avg: 8.14/10, (3.38/4 GPA)",
+      "courses": [
+        "Digital Identity",
+        "Legislation and Regulation",
+        "Security vulnerabilities",
+        "Networks' security",
+        "Databases' security"
+      ]
+    },
+    {
+      "institution": "Universitat Autònoma de Barcelona",
+      "shortName": "UAB",
+      "image": "https://imgur.com/thgKNEt.png",
+      "website": "https://uab.cat",
+      "studyType": "University degree",
+      "area": "Computer Science Engineering",
+      "startDate": "2013-09-13",
+      "endDate": "2017-06-20",
+      "gpa": "Cum laude, Avg: 8.86/10 (3.85/4 GPA)",
+      "courses": [
+        "Algebra and Calculus",
+        "Electricity and Electronics",
+        "Computer Architecture",
+        "Operating Systems",
+        "Software Development",
+        "Database Management (RDBMS and NoSQL)",
+        "Agile Methodologies",
+        "Computer Networks (Advanced)",
+        "Distributed Systems",
+        "Systems Administration",
+        "Information and Security (Advanced)",
+        "PKI",
+        "Big Data",
+        "Web Services",
+        "DevOps",
+        "Blockchain technology (Advanced)",
+        "Bitcoin development (Advanced)"
+      ]
+    },
+    {
+      "institution": "Institut de Mollet del Vallès",
+      "image": "https://imgur.com/3pVVNSY.png",
+      "website": "http://www.insmollet.cat",
+      "studyType": "High school",
+      "area": "Science and Technology",
+      "startDate": "2011-09-13",
+      "endDate": "2013-06-01",
+      "gpa": "Cum laude, Avg: 9.76/10 (3.96 GPA)",
+      "courses": [
+        "Catalan",
+        "Spanish",
+        "English",
+        "Industrial technology",
+        "Maths",
+        "Physics",
+        "Technical Design (and CAID)",
+        "Enterpreneurship",
+        "Internship (as computer technician)"
+      ],
+      "printHidden": true
+    }
+  ],
+  "awards": [
+    {
+      "title": "2nd place at University degree's gamification program",
+      "date": "2016-06-25",
+      "awarder": "dEIC.UAB.cat",
+      "summary": "TOP Enginyeria is an engineering gamification program implemented in several engineering degrees that aims students to go further than classes with extra projects,  competitions, challenges and games apart from traditional classes, awarding the best students with symbolic rewards and extra activities to motivate them in their studies and improve their rivailry to get the best performance possible"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend: web",
+      "level": "Expert",
+      "keywords": [
+        "Responsive design",
+        "Material design",
+        "Redux (flux architecture)",
+        "Angular 7 & 8",
+        "Bootstrap",
+        "Jekyll",
+        "Typescript",
+        "Javascript",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "name": "Backend: data apps",
+      "level": "Expert",
+      "keywords": [
+        "Spring Framework (Boot)",
+        "Kotlin",
+        "Java",
+        "Python",
+        "J2EE",
+        "Gradle",
+        "Maven",
+        "Liquibase",
+        "PostgreSQL",
+        "MongoDB",
+        "OpenAPI"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "Apache JMeter",
+        "Gitlab CI/CD",
+        "Travis CI",
+        "Heroku"
+      ]
+    },
+    {
+      "name": "Software architecture",
+      "level": "Advanced",
+      "keywords": [
+        "Clean Code",
+        "Clean Architecture",
+        "DDD",
+        "TDD",
+        "Design patterns"
+      ]
+    },
+    {
+      "name": "Systems administration",
+      "level": "Advanced",
+      "keywords": [
+        "Linux",
+        "Arch Linux",
+        "Debian/Ubuntu",
+        "Bash",
+        "Zsh",
+        "iptables",
+        "OpenVPN",
+        "Wireguard",
+        "Windows XP+"
+      ]
+    },
+    {
+      "name": "Project management",
+      "level": "Competent",
+      "keywords": [
+        "4+1 Architecture",
+        "Agile methodologies",
+        "Requirements specification",
+        "Use cases diagrams"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "publications": [],
+  "references": [],
+  "meta": {
+    "canonical": "https://resume.davidlj95.com",
+    "print": {
+      "hiddenSections": [
+        "awards",
+        "languages"
+      ]
+    }
+  }
 }
