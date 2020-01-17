@@ -61,7 +61,7 @@
       "image": "https://imgur.com/Jg7ADq1.png",
       "position": "Full stack software engineer & DLT consultant",
       "startDate": "2018-06-01",
-      "summary": "Lead software engineer: digitally verifiable credentials, PoA blockchain networks deployment software and a Bitcoin cryptocurrency library. Blockchain and DLT consultant.",
+      "summary": "Lead software engineer for all company's projects. Blockchain / DLT consultant and researcher. Board member of the company's own cryptocurrency investment fund as technical advisor",
       "highlights": [
         "Web backend RESTful APIs with OpenAPI, Spring Boot, Kotlin and Python",
         "Web frontend Material Design PWA with Angular 7 & 8, Polymer, Redux, Typescript, Javascript, SCSS and HTML5",
@@ -222,13 +222,15 @@
       ]
     },
     {
-      "name": "Backend: data apps",
+      "name": "Backend",
       "level": "Expert",
       "keywords": [
         "Spring Framework (Boot)",
         "Kotlin",
         "Java",
         "Python",
+        "PHP",
+        "Node.js",
         "J2EE",
         "Gradle",
         "Maven",
@@ -289,6 +291,169 @@
   "volunteer": [],
   "publications": [],
   "references": [],
+  "projects": [
+    {
+      "name": "Cowstamp",
+      "description": "Web SaaS app to create, issue and receive verifiable credentials digitally signed using blockchain technologies with a user-centric design. Uses a custom ad hoc library to canonize JSON-LD graphs",
+      "url": "https://cowstamp.com",
+      "image": "https://imgur.com/9KpS6LW.png",
+      "startDate": "2019-07-29",
+      "entity": "BTC Assessors",
+      "roles": [
+        "Lead software engineer",
+        "Full stack developer"
+      ],
+      "keywords": [
+        "Angular 8",
+        "Typescript",
+        "PWA",
+        "REST API",
+        "OpenAPI",
+        "Spring Boot",
+        "Kotlin",
+        "Apache JMeter",
+        "JUnit 4",
+        "Liquibase",
+        "MongoDB",
+        "PostgreSQL",
+        "Gradle",
+        "JHipster",
+        "Docker",
+        "Heroku",
+        "GitLab CI/CD",
+        "Linux",
+        "Blockchain",
+        "Blockcerts",
+        "JSON-LD",
+        "Agile methodologies"
+      ]
+    },
+    {
+      "name": "Kowbucha",
+      "description": "Web app to allow an independent verification of Blockcerts verifiable credentials based upon users' trust decisions. Uses a companion NodeJS & browser Javascript library created ad hoc to perform the verifications.",
+      "url": "https://kowbucha.org",
+      "startDate": "2019-11-14",
+      "endDate": "2019-12-17",
+      "entity": "BTC Assessors",
+      "roles": [
+        "Lead software engineer",
+        "Frontend developer"
+      ],
+      "keywords": [
+        "Material Design",
+        "Angular 8",
+        "Typescript",
+        "PWA",
+        "Redux",
+        "Karma",
+        "Jasmine",
+        "Jest",
+        "Node.js",
+        "Rollup.js",
+        "npm",
+        "GitLab CI/CD",
+        "Karma",
+        "Jasmine",
+        "GitLab Pages",
+        "Blockchain",
+        "Bitcoin",
+        "Ethereum",
+        "Blockcerts",
+        "JSON-LD",
+        "Agile methodologies"
+      ]
+    },
+    {
+      "name": "NodeCenter",
+      "description": "Application to manage blockchain / DLT nodes deployments in few clicks with an easy to use web interface, based on an Open API documented REST API exposed by a companion app daemon",
+      "url": "https://github.com/nodecenter/app",
+      "image": "https://imgur.com/kroWBlD.png",
+      "startDate": "2019-01-15",
+      "endDate": "2019-09-10",
+      "entity": "BTC Assessors",
+      "roles": [
+        "Software engineer",
+        "Full stack developer"
+      ],
+      "keywords": [
+        "Docker",
+        "REST API",
+        "OpenAPI",
+        "Python 3.7",
+        "Flask",
+        "Angular 8",
+        "Typescript",
+        "GitLab CI/CD"
+      ]
+    },
+    {
+      "name": "Bitcoin Framework",
+      "description": "Python Bitcoin framework to create transactions with smart contracts (scripts) based on puzzle-friendliness and OOP",
+      "url": "https://gitlab.com/btcalabs/bitcoin-framework",
+      "image": "https://imgur.com/C4ahmYr.png",
+      "startDate": "2017-07-04",
+      "endDate": "2018-12-03",
+      "entity": "BTC Assessors & UAB",
+      "roles": [
+        "Software engineer",
+        "Library maintainer"
+      ],
+      "keywords": [
+        "Bitcoin",
+        "Cryptography",
+        "Python 3.6",
+        "Unittest",
+        "Sphinx",
+        "ReadTheDocs",
+        "TravisCI",
+        "GitLab CI/CD",
+        "PyPi"
+      ]
+    },
+    {
+      "name": "IBC Report Generator",
+      "description": "Desktop application to generate biomechanics reports out of data extracted from third party applications and devices using user-created report templates",
+      "startDate": "2015-09-25",
+      "endDate": "2018-02-17",
+      "entity": "IBC Biomechanics",
+      "roles": [
+        "Lead software engineer",
+        "Full stack developer"
+      ],
+      "keywords": [
+        "Anaconda",
+        "Python 2.7",
+        "Python 3.4",
+        "PyQt 4",
+        "PyQt 5",
+        "SQL Alchemy",
+        "Maria DB",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Police Translator",
+      "description": "Hybrid mobile application with a collection of useful phrases for police officers translated from/to English to/from Catalan, with audio pronounciations and that fully works offline. Web application to manage all content and their translations",
+      "image": "https://imgur.com/GIYv6YI.png",
+      "startDate": "2014-06-27",
+      "endDate": "2015-11-18",
+      "entity": "ISPC",
+      "roles": [
+        "Software engineer",
+        "Full stack developer"
+      ],
+      "keywords": [
+        "Linux",
+        "PHP 5",
+        "MySQL",
+        "jQuery",
+        "Apache Cordova",
+        "HTML4",
+        "CSS2",
+        "JavaScript"
+      ]
+    }
+  ],
   "meta": {
     "canonical": "https://resume.davidlj95.com",
     "print": {
