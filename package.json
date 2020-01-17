@@ -1,0 +1,19 @@
+{
+  "name": "@davidlj95/resume",
+  "version": "0.2.0",
+  "description": "My professional resume",
+  "main": "docs/index.html",
+  "repository": "git@github.com:davidlj95/resume.git",
+  "author": "David LJ <mail@davidlj95.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "resume export --theme material-design docs/index.html",
+    "gitignore": "curl http://gitignore.io/api/vim,node,linux,macos,windows,webstorm+iml > .gitignore"
+  },
+  "devDependencies": {
+    "@jsonresume/cli": "^1.2.8",
+    "http-server": "^0.11.1",
+    "jsonresume-theme-material-design": "^0.7.0"
+  }
+}
