@@ -14,6 +14,6 @@
   "devDependencies": {
     "@jsonresume/cli": "^1.2.8",
     "http-server": "^0.11.1",
-    "jsonresume-theme-material-design": "^0.8.1"
+    "jsonresume-theme-material-design": "^0.8.2"
   }
 }
