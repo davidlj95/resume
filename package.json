@@ -9,11 +9,13 @@
   "private": false,
   "scripts": {
     "start": "resume export --theme material-design docs/index.html",
-    "gitignore": "curl http://gitignore.io/api/vim,node,linux,macos,windows,webstorm+iml > .gitignore"
+    "gitignore": "curl https://www.toptal.com/developers/gitignore/api/vim,node,linux,macos,windows,webstorm+iml -o .gitignore",
+    "update-all-deps": "npx npm-check-updates -u"
   },
   "devDependencies": {
-    "@jsonresume/cli": "^1.2.8",
-    "http-server": "^0.11.1",
-    "jsonresume-theme-material-design": "^0.8.2"
+    "resume-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "jsonresume-theme-material-design": "file:../jsonresume-theme-material-design"
   }
 }
