@@ -56,6 +56,40 @@
   ],
   "work": [
     {
+      "company": "Vesto",
+      "website": "https://www.vestoapp.com",
+      "image": "https://i.imgur.com/54OVtLi.png",
+      "position": "Senior Software Engineer (as freelancer)",
+      "startDate": "2022-10-10",
+      "summary": "Backend. Lead direct batch buy feature to buy multiple stocks at once. Lead robustness planning to improve the app stability, focusing on gaining observability to push for data-driven decisions and automating processes to reduce customer support workload",
+      "highlights": [
+        "Lead initiative to observe & reduce wallet synchronization issues from 69% to 6%",
+        "Lead continuous proposals to improve company's processes, backend team side and company wide. Like pushing for technical refinements, differentiating between bugs an complaints, tracking estimations accuracy",
+        "Started learning fridays initiative for knowledge sharing amongst engineering team",
+        "HTTP REST JSON APIs development using Ruby on Rails + dry-validation + OpenAPI",
+        "Managing AWS infrastructure with Terraform: ELB, ECS + Fargate",
+        "Added New Relic as observability tool"
+      ]
+    },
+    {
+      "company": "Koa Health (Telefónica Alpha)" ,
+      "website": "https://www.koahealth.com",
+      "image": "https://i.imgur.com/bN2jv22.png",
+      "position": "Senior Software Engineer",
+      "startDate": "2020-03-01",
+      "endDate": "2022-06-07",
+      "summary": "Full stack. Started as mid. Promoted to senior in 1st year's performance review. Owned several features implementations. Aligned with product, design, QA, DevOps, cybersec, research & other products' engineering teams. Lead & participated in squad's processes improvements",
+      "highlights": [
+        "Several features owner like audio exercises, push notifications, therapist & patient messaging for the Mindset product",
+        "HTTP REST JSON APIs development using Node.js + Typescript + OpenAPI",
+        "Support DevOps team maintaining the backend app infrastructure: K8s + Helm + Terraform to manage AWS resources (API Gateway, ALB, Cognito, RDS). Datadog for observability",
+        "Maintenance of GitHub Actions CI/CD pipelines",
+        "Continuous proposals & contributions in projects' authZ/N: OAuth 2.1 / OIDC / SSO with 3rd party IdP federation via AWS Cognito. API Gateway auth. JWT tokens management",
+        "Mobile app development for Android & iOS using Flutter 1/2 + Dart",
+        "Web app development (SPA) using Angular 9+"
+      ]
+    },
+    {
       "company": "BTC Assessors",
       "website": "https://btcassessors.com",
       "image": "https://imgur.com/Jg7ADq1.png",
@@ -135,7 +169,7 @@
       "area": "MISTIC (Cibersecurity)",
       "startDate": "2017-09-20",
       "endDate": "2018-09-20",
-      "gpa": "Avg: 8.14/10, (3.38/4 GPA)",
+      "gpa": "Avg: 8.14/10, (3.38/4 GPA). Unfinished",
       "courses": [
         "Digital Identity",
         "Legislation and Regulation",
@@ -207,38 +241,43 @@
   ],
   "skills": [
     {
-      "name": "Frontend: web",
-      "level": "Expert",
+      "name": "Frontend: web & hybrid mobile",
+      "level": "Advanced",
       "keywords": [
-        "Responsive design",
-        "Material design",
+        "Flutter",
+        "Angular 11",
         "Redux (flux architecture)",
-        "Angular 7 & 8",
+        "Typescript",
+        "Responsive design",
+        "Material Design 2",
         "Bootstrap",
         "Jekyll",
-        "Typescript",
-        "Javascript",
         "HTML5",
-        "CSS3"
+        "CSS3",
+        "Javascript"
       ]
     },
     {
       "name": "Backend",
-      "level": "Expert",
+      "level": "Advanced",
       "keywords": [
+        "Ruby on Rails",
+        "Sidekiq",
+        "Typescript",
+        "Node.js",
+        "Express",
+        "OpenAPI",
+        "PostgreSQL",
         "Spring Framework (Boot)",
         "Kotlin",
         "Java",
         "Python",
         "PHP",
-        "Node.js",
         "J2EE",
         "Gradle",
         "Maven",
         "Liquibase",
-        "PostgreSQL",
-        "MongoDB",
-        "OpenAPI"
+        "MongoDB"
       ]
     },
     {
@@ -246,9 +285,12 @@
       "level": "Advanced",
       "keywords": [
         "Docker",
-        "Apache JMeter",
-        "Gitlab CI/CD",
+        "Terraform",
+        "GitHub CI/CD",
+        "Shell scripting",
         "Travis CI",
+        "GitLab CI/CD",
+        "Apache JMeter",
         "Heroku"
       ]
     },
@@ -294,11 +336,68 @@
   "references": [],
   "projects": [
     {
+      "name": "Vesto",
+      "description": "Mobile app to introduce users to the world of financial investments. Allows to easily invest in US stock market with credit card or bizum. Focused for Spanish market. Worked on the backend side",
+      "url": "https://vestoapp.com",
+      "image": "https://i.imgur.com/54OVtLi.png",
+      "startDate": "2022-10-10",
+      "entity": "Vesto",
+      "roles": [
+        "Senior software engineer",
+        "Backend"
+      ],
+      "keywords": [
+        "Ruby on Rails 6",
+        "Sidekiq",
+        "REST API",
+        "OpenAPI",
+        "RSpec",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "GitHub Actions",
+        "Terraform",
+        "AWS (EC2, ECS, RDS, ELB, ElastiCache)",
+        "RedSys",
+        "New Relic",
+        "Slack"
+      ]
+    },
+    {
+      "name": "Mindset",
+      "description": "Mobile app for patients to treat depression using Cognitive Behavioral Therapy (CBT) exercises. Web app for therapists to track patients' progress",
+      "url": "https://www.koahealth.com/products/mindset",
+      "image": "https://i.imgur.com/w85KRee.png",
+      "startDate": "2020-03-01",
+      "endDate": "2022-06-07",
+      "entity": "Koa Health / Telefónica Alpha",
+      "roles": [
+        "Senior software engineer",
+        "Full stack"
+      ],
+      "keywords": [
+        "Flutter 1 & 2",
+        "Typescript",
+        "Node.js",
+        "Express",
+        "REST API",
+        "OpenAPI",
+        "Jest",
+        "PostgreSQL",
+        "Docker",
+        "GitHub Actions",
+        "Terraform",
+        "AWS (EKS, ALB, RDS, API Gateway, Cognito)",
+        "Datadog"
+      ]
+    },
+    {
       "name": "Cowstamp",
       "description": "Web SaaS app to create, issue and receive verifiable credentials digitally signed using blockchain technologies with a user-centric design. Uses a custom ad hoc library to canonize JSON-LD graphs",
       "url": "https://cowstamp.com",
       "image": "https://imgur.com/9KpS6LW.png",
       "startDate": "2019-07-29",
+      "endDate": "2019-12-17",
       "entity": "BTC Assessors",
       "roles": [
         "Lead software engineer",
@@ -414,6 +513,7 @@
     {
       "name": "IBC Report Generator",
       "description": "Desktop application to generate biomechanics reports out of data extracted from third party applications and devices using user-created report templates",
+      "image": "https://i.imgur.com/6jh7VDW.png",
       "startDate": "2015-09-25",
       "endDate": "2018-02-17",
       "entity": "IBC Biomechanics",
