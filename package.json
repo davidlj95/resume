@@ -1,6 +1,6 @@
 {
   "name": "@davidlj95/resume",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "My professional resume",
   "main": "docs/index.html",
   "repository": "git@github.com:davidlj95/resume.git",
