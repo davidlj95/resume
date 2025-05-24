@@ -2,7 +2,7 @@
   "basics": {
     "name": "David Lozano Jarque",
     "label": "Full stack software engineer: from scratch to production",
-    "image": "https://www.davidlj95.com/assets/img/profile.png",
+    "image": "https://davidlj95.com/profile.jpg",
     "email": "mail@davidlj95.com",
     "phone": "+34 644 449 360",
     "url": "https://davidlj95.com",
@@ -556,6 +556,10 @@
     }
   ],
   "meta": {
+    "notice": {
+      "title": "This resume version is outdated",
+      "content": "Yet it exists for archive purposes. And a bit of nostalgia, NGL. The current one can be found at [https://davidlj95.com/resume/](https://davidlj95.com/resume)"
+    },
     "canonical": "https://resume.davidlj95.com",
     "print": {
       "hiddenSections": [
